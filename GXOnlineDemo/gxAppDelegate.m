@@ -7,14 +7,15 @@
 //
 
 #import "gxAppDelegate.h"
-
+#import "InterfaceViewController.h"  // 界面
+#import "DataViewController.h"       // 数据
+#import "FunctionsViewController.h"  // 功能
+#import "OtherViewController.h"      // 其它
 @implementation gxAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+   
     [self.window makeKeyAndVisible];
     return YES;
 }

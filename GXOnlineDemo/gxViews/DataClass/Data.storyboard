@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9527.1" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9525.1"/>
+    </dependencies>
+    <scenes>
+        <!--Design Pattern View Controller-->
+        <scene sceneID="A7U-y6-rbi">
+            <objects>
+                <viewController storyboardIdentifier="DesignPatternViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="v0m-ys-BWd" customClass="DesignPatternViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hgW-U8-Ky4"/>
+                        <viewControllerLayoutGuide type="bottom" id="Jsv-kR-uIO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QMl-po-NAt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Td5-Fa-iHe">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="v0m-ys-BWd" id="DTL-Nd-9uK"/>
+                                    <outlet property="delegate" destination="v0m-ys-BWd" id="qDA-V1-GTb"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Td5-Fa-iHe" firstAttribute="leading" secondItem="QMl-po-NAt" secondAttribute="leading" id="isK-eF-eLF"/>
+                            <constraint firstItem="Td5-Fa-iHe" firstAttribute="top" secondItem="QMl-po-NAt" secondAttribute="top" id="qym-Um-csg"/>
+                            <constraint firstAttribute="trailing" secondItem="Td5-Fa-iHe" secondAttribute="trailing" id="tk9-kl-VgY"/>
+                            <constraint firstItem="Jsv-kR-uIO" firstAttribute="top" secondItem="Td5-Fa-iHe" secondAttribute="bottom" id="xAF-Qn-N9f"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mainTableView" destination="Td5-Fa-iHe" id="zJG-vD-fNA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Cp-q3-3r6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="35" y="-1236"/>
+        </scene>
+        <!--One Prototype View Controller-->
+        <scene sceneID="y9k-6g-1XL">
+            <objects>
+                <viewController storyboardIdentifier="OnePrototypeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3IV-NN-kE9" customClass="OnePrototypeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5VC-5Z-Ve1"/>
+                        <viewControllerLayoutGuide type="bottom" id="oa7-ax-PEa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3DV-hl-frC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CwA-id-2iA">
+                                <rect key="frame" x="5" y="51" width="74" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wkn-3v-ITr">
+                                <rect key="frame" x="164" y="51" width="69" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fqi-1R-bva">
+                                <rect key="frame" x="271" y="60" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RPW-Nr-V5z">
+                                <rect key="frame" x="87" y="51" width="69" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="=" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1eR-x2-pmy">
+                                <rect key="frame" x="241" y="60" width="25" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1N0-6R-7PO">
+                                <rect key="frame" x="139" y="113" width="30" height="30"/>
+                                <state key="normal" title="计算">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="calculate:" destination="3IV-NN-kE9" eventType="touchUpInside" id="YNc-TQ-hyN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="countTextField" destination="RPW-Nr-V5z" id="gEE-iT-cqf"/>
+                        <outlet property="numberA" destination="CwA-id-2iA" id="vwp-7h-w5m"/>
+                        <outlet property="numberB" destination="wkn-3v-ITr" id="CC5-B0-1LW"/>
+                        <outlet property="resultTextfield" destination="fqi-1R-bva" id="Cz0-nT-sWD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jIh-tA-uYS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="184" y="-456"/>
+        </scene>
+    </scenes>
+</document>
