@@ -89,6 +89,32 @@
 		400EAAC41C2A9A3C000AFE82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400EAAC31C2A9A3C000AFE82 /* Main.storyboard */; };
 		400EAAC61C2A9C55000AFE82 /* Data.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400EAAC51C2A9C55000AFE82 /* Data.storyboard */; };
 		400EAACC1C2A9D36000AFE82 /* OnePrototypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAACB1C2A9D36000AFE82 /* OnePrototypeViewController.m */; };
+		400EAAD71C2AB144000AFE82 /* HCDCaseReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAACF1C2AB144000AFE82 /* HCDCaseReturn.m */; };
+		400EAAD81C2AB144000AFE82 /* HCDCashContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAAD21C2AB144000AFE82 /* HCDCashContext.m */; };
+		400EAAD91C2AB144000AFE82 /* HCDCashNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAAD41C2AB144000AFE82 /* HCDCashNormal.m */; };
+		400EAADA1C2AB144000AFE82 /* HCDCashRobate.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAAD61C2AB144000AFE82 /* HCDCashRobate.m */; };
+		400EAAE01C2AB1D6000AFE82 /* TwoStrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAADF1C2AB1D6000AFE82 /* TwoStrategyViewController.m */; };
+		400EAAFB1C2AB9A2000AFE82 /* HCDdecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAAE91C2AB9A2000AFE82 /* HCDdecorator.m */; };
+		400EAAFC1C2AB9A2000AFE82 /* HCDdecoratorBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAAEB1C2AB9A2000AFE82 /* HCDdecoratorBluetooth.m */; };
+		400EAAFD1C2AB9A2000AFE82 /* HCDdecoratorGPS.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAAED1C2AB9A2000AFE82 /* HCDdecoratorGPS.m */; };
+		400EAAFE1C2AB9A2000AFE82 /* HCDnokiaPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAAEF1C2AB9A2000AFE82 /* HCDnokiaPhone.m */; };
+		400EAAFF1C2AB9A2000AFE82 /* HCDstractCellPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAAF11C2AB9A2000AFE82 /* HCDstractCellPhone.m */; };
+		400EAB041C2AB9A2000AFE82 /* 装饰模式图片.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 400EAAF71C2AB9A2000AFE82 /* 装饰模式图片.jpg */; };
+		400EAB071C2AB9ED000AFE82 /* ThreeDecoratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAB061C2AB9ED000AFE82 /* ThreeDecoratorViewController.m */; };
+		400EAB241C2BF816000AFE82 /* HCDproxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAB1F1C2BF816000AFE82 /* HCDproxy.m */; };
+		400EAB251C2BF816000AFE82 /* HCDpursuit.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAB211C2BF816000AFE82 /* HCDpursuit.m */; };
+		400EAB261C2BF816000AFE82 /* HCDschoolGirl.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAB231C2BF816000AFE82 /* HCDschoolGirl.m */; };
+		400EAB291C2BF839000AFE82 /* FourProxyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAB281C2BF839000AFE82 /* FourProxyViewController.m */; };
+		400EAB3E1C2C00B8000AFE82 /* HCDCalculateAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAB2D1C2C00B8000AFE82 /* HCDCalculateAdd.m */; };
+		400EAB3F1C2C00B8000AFE82 /* HCDCalculateDivide.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAB2F1C2C00B8000AFE82 /* HCDCalculateDivide.m */; };
+		400EAB401C2C00B8000AFE82 /* HCDCalculateMinus.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAB311C2C00B8000AFE82 /* HCDCalculateMinus.m */; };
+		400EAB411C2C00B8000AFE82 /* HCDCalcuteMultiply.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAB331C2C00B8000AFE82 /* HCDCalcuteMultiply.m */; };
+		400EAB421C2C00B8000AFE82 /* HCDfactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAB351C2C00B8000AFE82 /* HCDfactory.m */; };
+		400EAB431C2C00B8000AFE82 /* HCDfactoryAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAB371C2C00B8000AFE82 /* HCDfactoryAdd.m */; };
+		400EAB441C2C00B8000AFE82 /* HCDfactoryDivide.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAB391C2C00B8000AFE82 /* HCDfactoryDivide.m */; };
+		400EAB451C2C00B8000AFE82 /* HCDfactoryMinus.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAB3B1C2C00B8000AFE82 /* HCDfactoryMinus.m */; };
+		400EAB461C2C00B8000AFE82 /* HCDfactoryMultiply.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAB3D1C2C00B8000AFE82 /* HCDfactoryMultiply.m */; };
+		400EAB491C2C00E6000AFE82 /* FiveFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAB481C2C00E6000AFE82 /* FiveFactoryViewController.m */; };
 		E44444F4183C9C5B00E0E6BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E44444F3183C9C5B00E0E6BF /* Foundation.framework */; };
 		E44444F6183C9C5B00E0E6BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E44444F5183C9C5B00E0E6BF /* CoreGraphics.framework */; };
 		E44444F8183C9C5B00E0E6BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E44444F7183C9C5B00E0E6BF /* UIKit.framework */; };
@@ -250,6 +276,60 @@
 		400EAAC51C2A9C55000AFE82 /* Data.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Data.storyboard; sourceTree = "<group>"; };
 		400EAACA1C2A9D36000AFE82 /* OnePrototypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnePrototypeViewController.h; sourceTree = "<group>"; };
 		400EAACB1C2A9D36000AFE82 /* OnePrototypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnePrototypeViewController.m; sourceTree = "<group>"; };
+		400EAACE1C2AB144000AFE82 /* HCDCaseReturn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCaseReturn.h; sourceTree = "<group>"; };
+		400EAACF1C2AB144000AFE82 /* HCDCaseReturn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCaseReturn.m; sourceTree = "<group>"; };
+		400EAAD01C2AB144000AFE82 /* HCDCashBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCashBase.h; sourceTree = "<group>"; };
+		400EAAD11C2AB144000AFE82 /* HCDCashContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCashContext.h; sourceTree = "<group>"; };
+		400EAAD21C2AB144000AFE82 /* HCDCashContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCashContext.m; sourceTree = "<group>"; };
+		400EAAD31C2AB144000AFE82 /* HCDCashNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCashNormal.h; sourceTree = "<group>"; };
+		400EAAD41C2AB144000AFE82 /* HCDCashNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCashNormal.m; sourceTree = "<group>"; };
+		400EAAD51C2AB144000AFE82 /* HCDCashRobate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCashRobate.h; sourceTree = "<group>"; };
+		400EAAD61C2AB144000AFE82 /* HCDCashRobate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCashRobate.m; sourceTree = "<group>"; };
+		400EAADE1C2AB1D6000AFE82 /* TwoStrategyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoStrategyViewController.h; sourceTree = "<group>"; };
+		400EAADF1C2AB1D6000AFE82 /* TwoStrategyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoStrategyViewController.m; sourceTree = "<group>"; };
+		400EAAE81C2AB9A2000AFE82 /* HCDdecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDdecorator.h; sourceTree = "<group>"; };
+		400EAAE91C2AB9A2000AFE82 /* HCDdecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDdecorator.m; sourceTree = "<group>"; };
+		400EAAEA1C2AB9A2000AFE82 /* HCDdecoratorBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDdecoratorBluetooth.h; sourceTree = "<group>"; };
+		400EAAEB1C2AB9A2000AFE82 /* HCDdecoratorBluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDdecoratorBluetooth.m; sourceTree = "<group>"; };
+		400EAAEC1C2AB9A2000AFE82 /* HCDdecoratorGPS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDdecoratorGPS.h; sourceTree = "<group>"; };
+		400EAAED1C2AB9A2000AFE82 /* HCDdecoratorGPS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDdecoratorGPS.m; sourceTree = "<group>"; };
+		400EAAEE1C2AB9A2000AFE82 /* HCDnokiaPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDnokiaPhone.h; sourceTree = "<group>"; };
+		400EAAEF1C2AB9A2000AFE82 /* HCDnokiaPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDnokiaPhone.m; sourceTree = "<group>"; };
+		400EAAF01C2AB9A2000AFE82 /* HCDstractCellPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDstractCellPhone.h; sourceTree = "<group>"; };
+		400EAAF11C2AB9A2000AFE82 /* HCDstractCellPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDstractCellPhone.m; sourceTree = "<group>"; };
+		400EAAF71C2AB9A2000AFE82 /* 装饰模式图片.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "装饰模式图片.jpg"; sourceTree = "<group>"; };
+		400EAB051C2AB9ED000AFE82 /* ThreeDecoratorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeDecoratorViewController.h; sourceTree = "<group>"; };
+		400EAB061C2AB9ED000AFE82 /* ThreeDecoratorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeDecoratorViewController.m; sourceTree = "<group>"; };
+		400EAB1D1C2BF816000AFE82 /* HCDgiveGift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDgiveGift.h; sourceTree = "<group>"; };
+		400EAB1E1C2BF816000AFE82 /* HCDproxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDproxy.h; sourceTree = "<group>"; };
+		400EAB1F1C2BF816000AFE82 /* HCDproxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDproxy.m; sourceTree = "<group>"; };
+		400EAB201C2BF816000AFE82 /* HCDpursuit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDpursuit.h; sourceTree = "<group>"; };
+		400EAB211C2BF816000AFE82 /* HCDpursuit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDpursuit.m; sourceTree = "<group>"; };
+		400EAB221C2BF816000AFE82 /* HCDschoolGirl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDschoolGirl.h; sourceTree = "<group>"; };
+		400EAB231C2BF816000AFE82 /* HCDschoolGirl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDschoolGirl.m; sourceTree = "<group>"; };
+		400EAB271C2BF839000AFE82 /* FourProxyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourProxyViewController.h; sourceTree = "<group>"; };
+		400EAB281C2BF839000AFE82 /* FourProxyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourProxyViewController.m; sourceTree = "<group>"; };
+		400EAB2B1C2C00B8000AFE82 /* HCDCalculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalculate.h; sourceTree = "<group>"; };
+		400EAB2C1C2C00B8000AFE82 /* HCDCalculateAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalculateAdd.h; sourceTree = "<group>"; };
+		400EAB2D1C2C00B8000AFE82 /* HCDCalculateAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCalculateAdd.m; sourceTree = "<group>"; };
+		400EAB2E1C2C00B8000AFE82 /* HCDCalculateDivide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalculateDivide.h; sourceTree = "<group>"; };
+		400EAB2F1C2C00B8000AFE82 /* HCDCalculateDivide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCalculateDivide.m; sourceTree = "<group>"; };
+		400EAB301C2C00B8000AFE82 /* HCDCalculateMinus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalculateMinus.h; sourceTree = "<group>"; };
+		400EAB311C2C00B8000AFE82 /* HCDCalculateMinus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCalculateMinus.m; sourceTree = "<group>"; };
+		400EAB321C2C00B8000AFE82 /* HCDCalcuteMultiply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalcuteMultiply.h; sourceTree = "<group>"; };
+		400EAB331C2C00B8000AFE82 /* HCDCalcuteMultiply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCalcuteMultiply.m; sourceTree = "<group>"; };
+		400EAB341C2C00B8000AFE82 /* HCDfactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDfactory.h; sourceTree = "<group>"; };
+		400EAB351C2C00B8000AFE82 /* HCDfactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDfactory.m; sourceTree = "<group>"; };
+		400EAB361C2C00B8000AFE82 /* HCDfactoryAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDfactoryAdd.h; sourceTree = "<group>"; };
+		400EAB371C2C00B8000AFE82 /* HCDfactoryAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDfactoryAdd.m; sourceTree = "<group>"; };
+		400EAB381C2C00B8000AFE82 /* HCDfactoryDivide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDfactoryDivide.h; sourceTree = "<group>"; };
+		400EAB391C2C00B8000AFE82 /* HCDfactoryDivide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDfactoryDivide.m; sourceTree = "<group>"; };
+		400EAB3A1C2C00B8000AFE82 /* HCDfactoryMinus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDfactoryMinus.h; sourceTree = "<group>"; };
+		400EAB3B1C2C00B8000AFE82 /* HCDfactoryMinus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDfactoryMinus.m; sourceTree = "<group>"; };
+		400EAB3C1C2C00B8000AFE82 /* HCDfactoryMultiply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDfactoryMultiply.h; sourceTree = "<group>"; };
+		400EAB3D1C2C00B8000AFE82 /* HCDfactoryMultiply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDfactoryMultiply.m; sourceTree = "<group>"; };
+		400EAB471C2C00E6000AFE82 /* FiveFactoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveFactoryViewController.h; sourceTree = "<group>"; };
+		400EAB481C2C00E6000AFE82 /* FiveFactoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveFactoryViewController.m; sourceTree = "<group>"; };
 		E44444F0183C9C5B00E0E6BF /* GXOnlineDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GXOnlineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E44444F3183C9C5B00E0E6BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E44444F5183C9C5B00E0E6BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -620,6 +700,10 @@
 		400EAAAE1C2A9841000AFE82 /* DesignPatternViews */ = {
 			isa = PBXGroup;
 			children = (
+				400EAB2A1C2C00B8000AFE82 /* 5工厂方法模式 */,
+				400EAB1C1C2BF816000AFE82 /* 4代理模式 */,
+				400EAAE11C2AB9A2000AFE82 /* 3装饰模式 */,
+				400EAACD1C2AB144000AFE82 /* 2策略模式 */,
 				400EAAAF1C2A98BE000AFE82 /* 1简单工厂模式 */,
 			);
 			path = DesignPatternViews;
@@ -645,6 +729,88 @@
 				400EAABC1C2A98BE000AFE82 /* HCDCalcuteMultiply.m */,
 			);
 			path = "1简单工厂模式";
+			sourceTree = "<group>";
+		};
+		400EAACD1C2AB144000AFE82 /* 2策略模式 */ = {
+			isa = PBXGroup;
+			children = (
+				400EAACE1C2AB144000AFE82 /* HCDCaseReturn.h */,
+				400EAACF1C2AB144000AFE82 /* HCDCaseReturn.m */,
+				400EAAD01C2AB144000AFE82 /* HCDCashBase.h */,
+				400EAAD11C2AB144000AFE82 /* HCDCashContext.h */,
+				400EAAD21C2AB144000AFE82 /* HCDCashContext.m */,
+				400EAAD31C2AB144000AFE82 /* HCDCashNormal.h */,
+				400EAAD41C2AB144000AFE82 /* HCDCashNormal.m */,
+				400EAAD51C2AB144000AFE82 /* HCDCashRobate.h */,
+				400EAAD61C2AB144000AFE82 /* HCDCashRobate.m */,
+				400EAADE1C2AB1D6000AFE82 /* TwoStrategyViewController.h */,
+				400EAADF1C2AB1D6000AFE82 /* TwoStrategyViewController.m */,
+			);
+			path = "2策略模式";
+			sourceTree = "<group>";
+		};
+		400EAAE11C2AB9A2000AFE82 /* 3装饰模式 */ = {
+			isa = PBXGroup;
+			children = (
+				400EAAE81C2AB9A2000AFE82 /* HCDdecorator.h */,
+				400EAAE91C2AB9A2000AFE82 /* HCDdecorator.m */,
+				400EAAEA1C2AB9A2000AFE82 /* HCDdecoratorBluetooth.h */,
+				400EAAEB1C2AB9A2000AFE82 /* HCDdecoratorBluetooth.m */,
+				400EAAEC1C2AB9A2000AFE82 /* HCDdecoratorGPS.h */,
+				400EAAED1C2AB9A2000AFE82 /* HCDdecoratorGPS.m */,
+				400EAAEE1C2AB9A2000AFE82 /* HCDnokiaPhone.h */,
+				400EAAEF1C2AB9A2000AFE82 /* HCDnokiaPhone.m */,
+				400EAAF01C2AB9A2000AFE82 /* HCDstractCellPhone.h */,
+				400EAAF11C2AB9A2000AFE82 /* HCDstractCellPhone.m */,
+				400EAAF71C2AB9A2000AFE82 /* 装饰模式图片.jpg */,
+				400EAB051C2AB9ED000AFE82 /* ThreeDecoratorViewController.h */,
+				400EAB061C2AB9ED000AFE82 /* ThreeDecoratorViewController.m */,
+			);
+			path = "3装饰模式";
+			sourceTree = "<group>";
+		};
+		400EAB1C1C2BF816000AFE82 /* 4代理模式 */ = {
+			isa = PBXGroup;
+			children = (
+				400EAB1D1C2BF816000AFE82 /* HCDgiveGift.h */,
+				400EAB1E1C2BF816000AFE82 /* HCDproxy.h */,
+				400EAB1F1C2BF816000AFE82 /* HCDproxy.m */,
+				400EAB201C2BF816000AFE82 /* HCDpursuit.h */,
+				400EAB211C2BF816000AFE82 /* HCDpursuit.m */,
+				400EAB221C2BF816000AFE82 /* HCDschoolGirl.h */,
+				400EAB231C2BF816000AFE82 /* HCDschoolGirl.m */,
+				400EAB271C2BF839000AFE82 /* FourProxyViewController.h */,
+				400EAB281C2BF839000AFE82 /* FourProxyViewController.m */,
+			);
+			path = "4代理模式";
+			sourceTree = "<group>";
+		};
+		400EAB2A1C2C00B8000AFE82 /* 5工厂方法模式 */ = {
+			isa = PBXGroup;
+			children = (
+				400EAB2B1C2C00B8000AFE82 /* HCDCalculate.h */,
+				400EAB2C1C2C00B8000AFE82 /* HCDCalculateAdd.h */,
+				400EAB2D1C2C00B8000AFE82 /* HCDCalculateAdd.m */,
+				400EAB2E1C2C00B8000AFE82 /* HCDCalculateDivide.h */,
+				400EAB2F1C2C00B8000AFE82 /* HCDCalculateDivide.m */,
+				400EAB301C2C00B8000AFE82 /* HCDCalculateMinus.h */,
+				400EAB311C2C00B8000AFE82 /* HCDCalculateMinus.m */,
+				400EAB321C2C00B8000AFE82 /* HCDCalcuteMultiply.h */,
+				400EAB331C2C00B8000AFE82 /* HCDCalcuteMultiply.m */,
+				400EAB341C2C00B8000AFE82 /* HCDfactory.h */,
+				400EAB351C2C00B8000AFE82 /* HCDfactory.m */,
+				400EAB361C2C00B8000AFE82 /* HCDfactoryAdd.h */,
+				400EAB371C2C00B8000AFE82 /* HCDfactoryAdd.m */,
+				400EAB381C2C00B8000AFE82 /* HCDfactoryDivide.h */,
+				400EAB391C2C00B8000AFE82 /* HCDfactoryDivide.m */,
+				400EAB3A1C2C00B8000AFE82 /* HCDfactoryMinus.h */,
+				400EAB3B1C2C00B8000AFE82 /* HCDfactoryMinus.m */,
+				400EAB3C1C2C00B8000AFE82 /* HCDfactoryMultiply.h */,
+				400EAB3D1C2C00B8000AFE82 /* HCDfactoryMultiply.m */,
+				400EAB471C2C00E6000AFE82 /* FiveFactoryViewController.h */,
+				400EAB481C2C00E6000AFE82 /* FiveFactoryViewController.m */,
+			);
+			path = "5工厂方法模式";
 			sourceTree = "<group>";
 		};
 		E44444E7183C9C5B00E0E6BF = {
@@ -782,6 +948,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = E44444E7183C9C5B00E0E6BF;
 			productRefGroup = E44444F1183C9C5B00E0E6BF /* Products */;
@@ -831,6 +998,7 @@
 				400EAA9B1C2A8DAD000AFE82 /* tab_租房_亮@2x.png in Resources */,
 				400EAA841C2A8DAD000AFE82 /* gx120.png in Resources */,
 				400EAA9C1C2A8DAD000AFE82 /* tab_租房_暗.png in Resources */,
+				400EAB041C2AB9A2000AFE82 /* 装饰模式图片.jpg in Resources */,
 				E4444506183C9C5B00E0E6BF /* Images.xcassets in Resources */,
 				400EAA8D1C2A8DAD000AFE82 /* tab_嘀嘀找房_亮@2x.png in Resources */,
 				400EAA9E1C2A8DAD000AFE82 /* wk.png in Resources */,
@@ -853,6 +1021,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				400EAAFD1C2AB9A2000AFE82 /* HCDdecoratorGPS.m in Sources */,
 				400EAA7D1C2A8DAD000AFE82 /* UIWebViewController.m in Sources */,
 				400EAA5F1C2A8DAD000AFE82 /* NSDataViewController.m in Sources */,
 				400EAA651C2A8DAD000AFE82 /* GxDrawViewsViewController.m in Sources */,
@@ -866,42 +1035,66 @@
 				400EAA711C2A8DAD000AFE82 /* UIDatePickerViewController.m in Sources */,
 				400EAA751C2A8DAD000AFE82 /* UISwitchViewController.m in Sources */,
 				400EAABD1C2A98BE000AFE82 /* CommonTool.m in Sources */,
+				400EAAD91C2AB144000AFE82 /* HCDCashNormal.m in Sources */,
 				400EAAC01C2A98BE000AFE82 /* HCDCalculateMinus.m in Sources */,
 				400EAA801C2A8DAD000AFE82 /* GxTableViewController.m in Sources */,
 				400EAA691C2A8DAD000AFE82 /* ScreenCatchViewController.m in Sources */,
+				400EAB401C2C00B8000AFE82 /* HCDCalculateMinus.m in Sources */,
+				400EAADA1C2AB144000AFE82 /* HCDCashRobate.m in Sources */,
+				400EAB441C2C00B8000AFE82 /* HCDfactoryDivide.m in Sources */,
 				400EAA6C1C2A8DAD000AFE82 /* InterfaceViewController.m in Sources */,
+				400EAAFE1C2AB9A2000AFE82 /* HCDnokiaPhone.m in Sources */,
+				400EAAFB1C2AB9A2000AFE82 /* HCDdecorator.m in Sources */,
+				400EAB411C2C00B8000AFE82 /* HCDCalcuteMultiply.m in Sources */,
 				400EAA781C2A8DAD000AFE82 /* UILabelViewController.m in Sources */,
 				400EAACC1C2A9D36000AFE82 /* OnePrototypeViewController.m in Sources */,
 				400EAA701C2A8DAD000AFE82 /* UIControlViewController.m in Sources */,
 				400EAA7A1C2A8DAD000AFE82 /* UIProgressViewController.m in Sources */,
 				400EAABF1C2A98BE000AFE82 /* HCDCalculateDivide.m in Sources */,
 				400EAA681C2A8DAD000AFE82 /* FunctionsViewController.m in Sources */,
+				400EAB241C2BF816000AFE82 /* HCDproxy.m in Sources */,
 				400EAA7E1C2A8DAD000AFE82 /* DemoBaseViewController.m in Sources */,
 				400EAA5C1C2A8DAD000AFE82 /* LocateSaveViewController.m in Sources */,
+				400EAB3F1C2C00B8000AFE82 /* HCDCalculateDivide.m in Sources */,
 				E4444500183C9C5B00E0E6BF /* main.m in Sources */,
 				400EAA621C2A8DAD000AFE82 /* DrawCircleView.m in Sources */,
 				400EAA771C2A8DAD000AFE82 /* UIImageViewController.m in Sources */,
+				400EAB261C2BF816000AFE82 /* HCDschoolGirl.m in Sources */,
 				400EAA791C2A8DAD000AFE82 /* UIPickerViewController.m in Sources */,
 				400EAA631C2A8DAD000AFE82 /* DrawCircleViewController.m in Sources */,
+				400EAAD81C2AB144000AFE82 /* HCDCashContext.m in Sources */,
 				400EAA6E1C2A8DAD000AFE82 /* UIAlertViewController.m in Sources */,
+				400EAB461C2C00B8000AFE82 /* HCDfactoryMultiply.m in Sources */,
 				400EAA731C2A8DAD000AFE82 /* UISegmentedControlViewController.m in Sources */,
 				E4444504183C9C5B00E0E6BF /* gxAppDelegate.m in Sources */,
 				400EAA5A1C2A8DAD000AFE82 /* DataViewController.m in Sources */,
+				400EAB491C2C00E6000AFE82 /* FiveFactoryViewController.m in Sources */,
 				400EAA6B1C2A8DAD000AFE82 /* SellViewController.m in Sources */,
+				400EAB251C2BF816000AFE82 /* HCDpursuit.m in Sources */,
+				400EAAFF1C2AB9A2000AFE82 /* HCDstractCellPhone.m in Sources */,
 				400EAA7C1C2A8DAD000AFE82 /* UISearchBarViewController.m in Sources */,
 				400EAA661C2A8DAD000AFE82 /* transluView.m in Sources */,
 				400EAABE1C2A98BE000AFE82 /* HCDCalculateAdd.m in Sources */,
+				400EAAE01C2AB1D6000AFE82 /* TwoStrategyViewController.m in Sources */,
+				400EAB291C2BF839000AFE82 /* FourProxyViewController.m in Sources */,
 				400EAA5E1C2A8DAD000AFE82 /* MyCollectionCell.m in Sources */,
 				400EAA7F1C2A8DAD000AFE82 /* OtherViewController.m in Sources */,
 				400EAA741C2A8DAD000AFE82 /* UISliderViewController.m in Sources */,
+				400EAAD71C2AB144000AFE82 /* HCDCaseReturn.m in Sources */,
 				400EAA671C2A8DAD000AFE82 /* UIView+ImageShot.m in Sources */,
 				400EAA761C2A8DAD000AFE82 /* UITextFieldViewController.m in Sources */,
 				400EAA6F1C2A8DAD000AFE82 /* UIButtonViewController.m in Sources */,
 				400EAA7B1C2A8DAD000AFE82 /* UIScrollViewController.m in Sources */,
 				400EAA601C2A8DAD000AFE82 /* NSPredicateViewController.m in Sources */,
+				400EAB071C2AB9ED000AFE82 /* ThreeDecoratorViewController.m in Sources */,
+				400EAB3E1C2C00B8000AFE82 /* HCDCalculateAdd.m in Sources */,
 				400EAA611C2A8DAD000AFE82 /* AnimaTryViewController.m in Sources */,
 				400EAAC11C2A98BE000AFE82 /* HCDCalcuteFactory.m in Sources */,
+				400EAB431C2C00B8000AFE82 /* HCDfactoryAdd.m in Sources */,
+				400EAB421C2C00B8000AFE82 /* HCDfactory.m in Sources */,
 				400EAAC21C2A98BE000AFE82 /* HCDCalcuteMultiply.m in Sources */,
+				400EAAFC1C2AB9A2000AFE82 /* HCDdecoratorBluetooth.m in Sources */,
+				400EAB451C2C00B8000AFE82 /* HCDfactoryMinus.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
