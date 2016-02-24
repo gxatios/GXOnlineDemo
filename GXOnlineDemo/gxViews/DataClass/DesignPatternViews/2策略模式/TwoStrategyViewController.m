@@ -12,24 +12,33 @@
 #import "HCDCashRobate.h"
 #import "HCDCaseReturn.h"
 
+#import "Gx_Two_Create.h"
+#import "Gx_Two_Add.h"
+#import "Gx_Two_Multi.h"
+#import "Gx_Two_Main.h"
+
 @interface TwoStrategyViewController ()
 
 @end
 
 @implementation TwoStrategyViewController
-
+ 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     HCDCashContext *context = [[HCDCashContext alloc]initWithCashType:CashTypeNormal];
     NSLog(@"结果是%f",[context getResult:100]);
     
-    
     HCDCashContext *contextReturn = [[HCDCashContext alloc]initWithCashType:CashTypeReturn];
     NSLog(@"结果是%f",[contextReturn getResult:100]);
     
     HCDCashContext *contextRobate = [[HCDCashContext alloc]initWithCashType:CashTypeRobate];
     NSLog(@"结果是%f",[contextRobate getResult:100]);
+    
+    Gx_Two_Main *mainTest = [[Gx_Two_Main alloc] initWithGxType:Gx_Two_Type_Add];
+    Gx_Two_Main *mainTest2 = [[Gx_Two_Main alloc] initWithGxType:Gx_Two_Type_Multi];
+    NSLog(@"add:%f",[mainTest getResult:7]);
+    NSLog(@"multi:%f",[mainTest2 getResult:7]);
 }
 
 - (void)didReceiveMemoryWarning {

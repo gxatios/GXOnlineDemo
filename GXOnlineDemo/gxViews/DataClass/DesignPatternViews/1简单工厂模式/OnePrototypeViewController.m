@@ -9,6 +9,10 @@
 #import "OnePrototypeViewController.h"
 #import "HCDCalcuteFactory.h"
 
+#import "Gx_OneCreate.h"
+#import "Gx_FacateOne.h"
+#import "Gx_FacateTwo.h"
+
 @interface OnePrototypeViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *numberA;
 @property (weak, nonatomic) IBOutlet UITextField *countTextField;
@@ -38,6 +42,12 @@
     CGFloat result =  [cal calculate];
     //NSLog(@"结%@")
     self.resultTextfield.text = [@(result) stringValue];
+    
+    Gx_OneCreate *createOne = [[Gx_FacateOne alloc] init];
+    Gx_OneCreate *createTwo = [[Gx_FacateTwo alloc] init];
+    
+    [createOne create];
+    [createTwo create];
 }
 
 /*

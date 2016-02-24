@@ -115,6 +115,13 @@
 		400EAB451C2C00B8000AFE82 /* HCDfactoryMinus.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAB3B1C2C00B8000AFE82 /* HCDfactoryMinus.m */; };
 		400EAB461C2C00B8000AFE82 /* HCDfactoryMultiply.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAB3D1C2C00B8000AFE82 /* HCDfactoryMultiply.m */; };
 		400EAB491C2C00E6000AFE82 /* FiveFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAB481C2C00E6000AFE82 /* FiveFactoryViewController.m */; };
+		4012097D1C7C03150086198D /* Gx_OneCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4012097C1C7C03150086198D /* Gx_OneCreate.m */; };
+		401209801C7C04AD0086198D /* Gx_FacateOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 4012097F1C7C04AD0086198D /* Gx_FacateOne.m */; };
+		401209831C7C04BB0086198D /* Gx_FacateTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209821C7C04BB0086198D /* Gx_FacateTwo.m */; };
+		401209861C7C38570086198D /* Gx_Two_Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209851C7C38570086198D /* Gx_Two_Create.m */; };
+		401209891C7C38930086198D /* Gx_Two_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209881C7C38930086198D /* Gx_Two_Add.m */; };
+		4012098C1C7C38A10086198D /* Gx_Two_Multi.m in Sources */ = {isa = PBXBuildFile; fileRef = 4012098B1C7C38A10086198D /* Gx_Two_Multi.m */; };
+		4012098F1C7C38C50086198D /* Gx_Two_Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4012098E1C7C38C50086198D /* Gx_Two_Main.m */; };
 		E44444F4183C9C5B00E0E6BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E44444F3183C9C5B00E0E6BF /* Foundation.framework */; };
 		E44444F6183C9C5B00E0E6BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E44444F5183C9C5B00E0E6BF /* CoreGraphics.framework */; };
 		E44444F8183C9C5B00E0E6BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E44444F7183C9C5B00E0E6BF /* UIKit.framework */; };
@@ -330,6 +337,20 @@
 		400EAB3D1C2C00B8000AFE82 /* HCDfactoryMultiply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDfactoryMultiply.m; sourceTree = "<group>"; };
 		400EAB471C2C00E6000AFE82 /* FiveFactoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveFactoryViewController.h; sourceTree = "<group>"; };
 		400EAB481C2C00E6000AFE82 /* FiveFactoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveFactoryViewController.m; sourceTree = "<group>"; };
+		4012097B1C7C03150086198D /* Gx_OneCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gx_OneCreate.h; sourceTree = "<group>"; };
+		4012097C1C7C03150086198D /* Gx_OneCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gx_OneCreate.m; sourceTree = "<group>"; };
+		4012097E1C7C04AD0086198D /* Gx_FacateOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gx_FacateOne.h; sourceTree = "<group>"; };
+		4012097F1C7C04AD0086198D /* Gx_FacateOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gx_FacateOne.m; sourceTree = "<group>"; };
+		401209811C7C04BB0086198D /* Gx_FacateTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gx_FacateTwo.h; sourceTree = "<group>"; };
+		401209821C7C04BB0086198D /* Gx_FacateTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gx_FacateTwo.m; sourceTree = "<group>"; };
+		401209841C7C38570086198D /* Gx_Two_Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gx_Two_Create.h; sourceTree = "<group>"; };
+		401209851C7C38570086198D /* Gx_Two_Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gx_Two_Create.m; sourceTree = "<group>"; };
+		401209871C7C38930086198D /* Gx_Two_Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gx_Two_Add.h; sourceTree = "<group>"; };
+		401209881C7C38930086198D /* Gx_Two_Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gx_Two_Add.m; sourceTree = "<group>"; };
+		4012098A1C7C38A10086198D /* Gx_Two_Multi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gx_Two_Multi.h; sourceTree = "<group>"; };
+		4012098B1C7C38A10086198D /* Gx_Two_Multi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gx_Two_Multi.m; sourceTree = "<group>"; };
+		4012098D1C7C38C50086198D /* Gx_Two_Main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gx_Two_Main.h; sourceTree = "<group>"; };
+		4012098E1C7C38C50086198D /* Gx_Two_Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gx_Two_Main.m; sourceTree = "<group>"; };
 		E44444F0183C9C5B00E0E6BF /* GXOnlineDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GXOnlineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E44444F3183C9C5B00E0E6BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E44444F5183C9C5B00E0E6BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -727,6 +748,12 @@
 				400EAABA1C2A98BE000AFE82 /* HCDCalcuteFactory.m */,
 				400EAABB1C2A98BE000AFE82 /* HCDCalcuteMultiply.h */,
 				400EAABC1C2A98BE000AFE82 /* HCDCalcuteMultiply.m */,
+				4012097B1C7C03150086198D /* Gx_OneCreate.h */,
+				4012097C1C7C03150086198D /* Gx_OneCreate.m */,
+				4012097E1C7C04AD0086198D /* Gx_FacateOne.h */,
+				4012097F1C7C04AD0086198D /* Gx_FacateOne.m */,
+				401209811C7C04BB0086198D /* Gx_FacateTwo.h */,
+				401209821C7C04BB0086198D /* Gx_FacateTwo.m */,
 			);
 			path = "1简单工厂模式";
 			sourceTree = "<group>";
@@ -745,6 +772,14 @@
 				400EAAD61C2AB144000AFE82 /* HCDCashRobate.m */,
 				400EAADE1C2AB1D6000AFE82 /* TwoStrategyViewController.h */,
 				400EAADF1C2AB1D6000AFE82 /* TwoStrategyViewController.m */,
+				401209841C7C38570086198D /* Gx_Two_Create.h */,
+				401209851C7C38570086198D /* Gx_Two_Create.m */,
+				401209871C7C38930086198D /* Gx_Two_Add.h */,
+				401209881C7C38930086198D /* Gx_Two_Add.m */,
+				4012098A1C7C38A10086198D /* Gx_Two_Multi.h */,
+				4012098B1C7C38A10086198D /* Gx_Two_Multi.m */,
+				4012098D1C7C38C50086198D /* Gx_Two_Main.h */,
+				4012098E1C7C38C50086198D /* Gx_Two_Main.m */,
 			);
 			path = "2策略模式";
 			sourceTree = "<group>";
@@ -1030,10 +1065,14 @@
 				400EAAAD1C2A91F5000AFE82 /* DesignPatternViewController.m in Sources */,
 				400EAA6A1C2A8DAD000AFE82 /* UIView+ScreenShot.m in Sources */,
 				400EAA571C2A8DAD000AFE82 /* GXButtonList.m in Sources */,
+				401209891C7C38930086198D /* Gx_Two_Add.m in Sources */,
 				400EAA721C2A8DAD000AFE82 /* UIPageControlViewController.m in Sources */,
+				4012098C1C7C38A10086198D /* Gx_Two_Multi.m in Sources */,
 				400EAA591C2A8DAD000AFE82 /* CodeBlockViewController.m in Sources */,
+				401209861C7C38570086198D /* Gx_Two_Create.m in Sources */,
 				400EAA711C2A8DAD000AFE82 /* UIDatePickerViewController.m in Sources */,
 				400EAA751C2A8DAD000AFE82 /* UISwitchViewController.m in Sources */,
+				401209801C7C04AD0086198D /* Gx_FacateOne.m in Sources */,
 				400EAABD1C2A98BE000AFE82 /* CommonTool.m in Sources */,
 				400EAAD91C2AB144000AFE82 /* HCDCashNormal.m in Sources */,
 				400EAAC01C2A98BE000AFE82 /* HCDCalculateMinus.m in Sources */,
@@ -1041,6 +1080,7 @@
 				400EAA691C2A8DAD000AFE82 /* ScreenCatchViewController.m in Sources */,
 				400EAB401C2C00B8000AFE82 /* HCDCalculateMinus.m in Sources */,
 				400EAADA1C2AB144000AFE82 /* HCDCashRobate.m in Sources */,
+				401209831C7C04BB0086198D /* Gx_FacateTwo.m in Sources */,
 				400EAB441C2C00B8000AFE82 /* HCDfactoryDivide.m in Sources */,
 				400EAA6C1C2A8DAD000AFE82 /* InterfaceViewController.m in Sources */,
 				400EAAFE1C2AB9A2000AFE82 /* HCDnokiaPhone.m in Sources */,
@@ -1058,6 +1098,7 @@
 				400EAB3F1C2C00B8000AFE82 /* HCDCalculateDivide.m in Sources */,
 				E4444500183C9C5B00E0E6BF /* main.m in Sources */,
 				400EAA621C2A8DAD000AFE82 /* DrawCircleView.m in Sources */,
+				4012098F1C7C38C50086198D /* Gx_Two_Main.m in Sources */,
 				400EAA771C2A8DAD000AFE82 /* UIImageViewController.m in Sources */,
 				400EAB261C2BF816000AFE82 /* HCDschoolGirl.m in Sources */,
 				400EAA791C2A8DAD000AFE82 /* UIPickerViewController.m in Sources */,
@@ -1088,6 +1129,7 @@
 				400EAA601C2A8DAD000AFE82 /* NSPredicateViewController.m in Sources */,
 				400EAB071C2AB9ED000AFE82 /* ThreeDecoratorViewController.m in Sources */,
 				400EAB3E1C2C00B8000AFE82 /* HCDCalculateAdd.m in Sources */,
+				4012097D1C7C03150086198D /* Gx_OneCreate.m in Sources */,
 				400EAA611C2A8DAD000AFE82 /* AnimaTryViewController.m in Sources */,
 				400EAAC11C2A98BE000AFE82 /* HCDCalcuteFactory.m in Sources */,
 				400EAB431C2C00B8000AFE82 /* HCDfactoryAdd.m in Sources */,
