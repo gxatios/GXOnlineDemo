@@ -105,10 +105,6 @@
 		400EAB251C2BF816000AFE82 /* HCDpursuit.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAB211C2BF816000AFE82 /* HCDpursuit.m */; };
 		400EAB261C2BF816000AFE82 /* HCDschoolGirl.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAB231C2BF816000AFE82 /* HCDschoolGirl.m */; };
 		400EAB291C2BF839000AFE82 /* FourProxyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAB281C2BF839000AFE82 /* FourProxyViewController.m */; };
-		400EAB3E1C2C00B8000AFE82 /* HCDCalculateAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAB2D1C2C00B8000AFE82 /* HCDCalculateAdd.m */; };
-		400EAB3F1C2C00B8000AFE82 /* HCDCalculateDivide.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAB2F1C2C00B8000AFE82 /* HCDCalculateDivide.m */; };
-		400EAB401C2C00B8000AFE82 /* HCDCalculateMinus.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAB311C2C00B8000AFE82 /* HCDCalculateMinus.m */; };
-		400EAB411C2C00B8000AFE82 /* HCDCalcuteMultiply.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAB331C2C00B8000AFE82 /* HCDCalcuteMultiply.m */; };
 		400EAB421C2C00B8000AFE82 /* HCDfactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAB351C2C00B8000AFE82 /* HCDfactory.m */; };
 		400EAB431C2C00B8000AFE82 /* HCDfactoryAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAB371C2C00B8000AFE82 /* HCDfactoryAdd.m */; };
 		400EAB441C2C00B8000AFE82 /* HCDfactoryDivide.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EAB391C2C00B8000AFE82 /* HCDfactoryDivide.m */; };
@@ -122,6 +118,57 @@
 		401209891C7C38930086198D /* Gx_Two_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209881C7C38930086198D /* Gx_Two_Add.m */; };
 		4012098C1C7C38A10086198D /* Gx_Two_Multi.m in Sources */ = {isa = PBXBuildFile; fileRef = 4012098B1C7C38A10086198D /* Gx_Two_Multi.m */; };
 		4012098F1C7C38C50086198D /* Gx_Two_Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4012098E1C7C38C50086198D /* Gx_Two_Main.m */; };
+		401209D41C7EAEA60086198D /* HCDtextPaper.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209921C7EAEA60086198D /* HCDtextPaper.m */; };
+		401209D51C7EAEA60086198D /* HCDtextPaperA.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209941C7EAEA60086198D /* HCDtextPaperA.m */; };
+		401209D61C7EAEA60086198D /* HCDtextPaperB.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209961C7EAEA60086198D /* HCDtextPaperB.m */; };
+		401209D71C7EAEA60086198D /* HCDFound.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209991C7EAEA60086198D /* HCDFound.m */; };
+		401209D81C7EAEA60086198D /* HCDstock1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4012099B1C7EAEA60086198D /* HCDstock1.m */; };
+		401209D91C7EAEA60086198D /* HCDstock2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4012099D1C7EAEA60086198D /* HCDstock2.m */; };
+		401209DA1C7EAEA60086198D /* HCDstock3.m in Sources */ = {isa = PBXBuildFile; fileRef = 4012099F1C7EAEA60086198D /* HCDstock3.m */; };
+		401209DB1C7EAEA60086198D /* HCDPersonBuilderDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209A21C7EAEA60086198D /* HCDPersonBuilderDirector.m */; };
+		401209DC1C7EAEA60086198D /* HCDPersonFatBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209A41C7EAEA60086198D /* HCDPersonFatBuilder.m */; };
+		401209DD1C7EAEA60086198D /* HCDPersonThinBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209A61C7EAEA60086198D /* HCDPersonThinBuilder.m */; };
+		401209DE1C7EAEA60086198D /* HCDNBAObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209AA1C7EAEA60086198D /* HCDNBAObserver.m */; };
+		401209DF1C7EAEA60086198D /* HCDSecreteSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209AD1C7EAEA60086198D /* HCDSecreteSubject.m */; };
+		401209E01C7EAEA60086198D /* HCDStockObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209AF1C7EAEA60086198D /* HCDStockObserver.m */; };
+		401209E11C7EAEA60086198D /* HCDSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209B11C7EAEA60086198D /* HCDSubject.m */; };
+		401209E21C7EAEA60086198D /* 观察者模式类图.png in Resources */ = {isa = PBXBuildFile; fileRef = 401209B21C7EAEA60086198D /* 观察者模式类图.png */; };
+		401209E31C7EAEA60086198D /* HCDAccessDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209B51C7EAEA60086198D /* HCDAccessDepartment.m */; };
+		401209E41C7EAEA60086198D /* HCDAccessFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209B71C7EAEA60086198D /* HCDAccessFactory.m */; };
+		401209E51C7EAEA60086198D /* HCDAccessUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209B91C7EAEA60086198D /* HCDAccessUser.m */; };
+		401209E61C7EAEA60086198D /* HCDSqlserverDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209BD1C7EAEA60086198D /* HCDSqlserverDepartment.m */; };
+		401209E71C7EAEA60086198D /* HCDSqlserverFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209BF1C7EAEA60086198D /* HCDSqlserverFactory.m */; };
+		401209E81C7EAEA60086198D /* HCDSqlserverUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209C11C7EAEA60086198D /* HCDSqlserverUser.m */; };
+		401209E91C7EAEA60086198D /* HCDAfternoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209C51C7EAEA60086198D /* HCDAfternoonState.m */; };
+		401209EA1C7EAEA60086198D /* HCDEventState.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209C71C7EAEA60086198D /* HCDEventState.m */; };
+		401209EB1C7EAEA60086198D /* HCDForenoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209C91C7EAEA60086198D /* HCDForenoonState.m */; };
+		401209EC1C7EAEA60086198D /* HCDNoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209CB1C7EAEA60086198D /* HCDNoonState.m */; };
+		401209ED1C7EAEA60086198D /* HCDRestState.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209CD1C7EAEA60086198D /* HCDRestState.m */; };
+		401209EE1C7EAEA60086198D /* HCDSleepState.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209CF1C7EAEA60086198D /* HCDSleepState.m */; };
+		401209EF1C7EAEA60086198D /* HCDWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209D21C7EAEA60086198D /* HCDWork.m */; };
+		401209F01C7EAEA60086198D /* 状态模式结构图.png in Resources */ = {isa = PBXBuildFile; fileRef = 401209D31C7EAEA60086198D /* 状态模式结构图.png */; };
+		401209F31C7EAF1B0086198D /* SixPrototypeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209F21C7EAF1B0086198D /* SixPrototypeVC.m */; };
+		401209F61C7EAF2B0086198D /* SevenPrototypeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209F51C7EAF2B0086198D /* SevenPrototypeVC.m */; };
+		401209F91C7EAF3A0086198D /* EightPrototypeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209F81C7EAF3A0086198D /* EightPrototypeVC.m */; };
+		401209FC1C7EAF530086198D /* NightPtototypeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209FB1C7EAF530086198D /* NightPtototypeVC.m */; };
+		401209FF1C7EAF8D0086198D /* TenPrototypeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 401209FE1C7EAF8D0086198D /* TenPrototypeVC.m */; };
+		40120A021C7EAFCC0086198D /* ElevenPrototypeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40120A011C7EAFCC0086198D /* ElevenPrototypeVC.m */; };
+		40120A071C7EED1A0086198D /* SQLDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 40120A041C7EED1A0086198D /* SQLDepartment.m */; };
+		40120A081C7EED1A0086198D /* SQLUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 40120A061C7EED1A0086198D /* SQLUser.m */; };
+		406DB4891C843F1A00F51093 /* HCDForeignCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 406DB4821C843F1A00F51093 /* HCDForeignCenter.m */; };
+		406DB48A1C843F1A00F51093 /* HCDForwards.m in Sources */ = {isa = PBXBuildFile; fileRef = 406DB4841C843F1A00F51093 /* HCDForwards.m */; };
+		406DB48B1C843F1A00F51093 /* HCDPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 406DB4861C843F1A00F51093 /* HCDPlayer.m */; };
+		406DB48C1C843F1A00F51093 /* HCDTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = 406DB4881C843F1A00F51093 /* HCDTranslator.m */; };
+		406DB48F1C843FB700F51093 /* PrototypeTwelfthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 406DB48E1C843FB700F51093 /* PrototypeTwelfthViewController.m */; };
+		406DB4911C84429800F51093 /* 适配器模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 406DB4901C84429800F51093 /* 适配器模式.png */; };
+		406DB4991C84442A00F51093 /* HCDGameRoll.m in Sources */ = {isa = PBXBuildFile; fileRef = 406DB4941C84442A00F51093 /* HCDGameRoll.m */; };
+		406DB49A1C84442A00F51093 /* HCDGameState.m in Sources */ = {isa = PBXBuildFile; fileRef = 406DB4961C84442A00F51093 /* HCDGameState.m */; };
+		406DB49B1C84442A00F51093 /* HCDStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 406DB4981C84442A00F51093 /* HCDStateManager.m */; };
+		406DB49E1C8444A200F51093 /* PrototypeThirteenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 406DB49D1C8444A200F51093 /* PrototypeThirteenViewController.m */; };
+		406DB4A71C8445C500F51093 /* HCDConcreteCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = 406DB4A21C8445C500F51093 /* HCDConcreteCompany.m */; };
+		406DB4A81C8445C500F51093 /* HCDFinanceDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 406DB4A41C8445C500F51093 /* HCDFinanceDepartment.m */; };
+		406DB4A91C8445C500F51093 /* HCDHRDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 406DB4A61C8445C500F51093 /* HCDHRDepartment.m */; };
+		406DB4AC1C8445E600F51093 /* PrototypeFourteenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 406DB4AB1C8445E600F51093 /* PrototypeFourteenViewController.m */; };
 		E44444F4183C9C5B00E0E6BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E44444F3183C9C5B00E0E6BF /* Foundation.framework */; };
 		E44444F6183C9C5B00E0E6BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E44444F5183C9C5B00E0E6BF /* CoreGraphics.framework */; };
 		E44444F8183C9C5B00E0E6BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E44444F7183C9C5B00E0E6BF /* UIKit.framework */; };
@@ -316,15 +363,6 @@
 		400EAB231C2BF816000AFE82 /* HCDschoolGirl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDschoolGirl.m; sourceTree = "<group>"; };
 		400EAB271C2BF839000AFE82 /* FourProxyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourProxyViewController.h; sourceTree = "<group>"; };
 		400EAB281C2BF839000AFE82 /* FourProxyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourProxyViewController.m; sourceTree = "<group>"; };
-		400EAB2B1C2C00B8000AFE82 /* HCDCalculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalculate.h; sourceTree = "<group>"; };
-		400EAB2C1C2C00B8000AFE82 /* HCDCalculateAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalculateAdd.h; sourceTree = "<group>"; };
-		400EAB2D1C2C00B8000AFE82 /* HCDCalculateAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCalculateAdd.m; sourceTree = "<group>"; };
-		400EAB2E1C2C00B8000AFE82 /* HCDCalculateDivide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalculateDivide.h; sourceTree = "<group>"; };
-		400EAB2F1C2C00B8000AFE82 /* HCDCalculateDivide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCalculateDivide.m; sourceTree = "<group>"; };
-		400EAB301C2C00B8000AFE82 /* HCDCalculateMinus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalculateMinus.h; sourceTree = "<group>"; };
-		400EAB311C2C00B8000AFE82 /* HCDCalculateMinus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCalculateMinus.m; sourceTree = "<group>"; };
-		400EAB321C2C00B8000AFE82 /* HCDCalcuteMultiply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalcuteMultiply.h; sourceTree = "<group>"; };
-		400EAB331C2C00B8000AFE82 /* HCDCalcuteMultiply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCalcuteMultiply.m; sourceTree = "<group>"; };
 		400EAB341C2C00B8000AFE82 /* HCDfactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDfactory.h; sourceTree = "<group>"; };
 		400EAB351C2C00B8000AFE82 /* HCDfactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDfactory.m; sourceTree = "<group>"; };
 		400EAB361C2C00B8000AFE82 /* HCDfactoryAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDfactoryAdd.h; sourceTree = "<group>"; };
@@ -351,6 +389,112 @@
 		4012098B1C7C38A10086198D /* Gx_Two_Multi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gx_Two_Multi.m; sourceTree = "<group>"; };
 		4012098D1C7C38C50086198D /* Gx_Two_Main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gx_Two_Main.h; sourceTree = "<group>"; };
 		4012098E1C7C38C50086198D /* Gx_Two_Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gx_Two_Main.m; sourceTree = "<group>"; };
+		401209911C7EAEA60086198D /* HCDtextPaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDtextPaper.h; sourceTree = "<group>"; };
+		401209921C7EAEA60086198D /* HCDtextPaper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDtextPaper.m; sourceTree = "<group>"; };
+		401209931C7EAEA60086198D /* HCDtextPaperA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDtextPaperA.h; sourceTree = "<group>"; };
+		401209941C7EAEA60086198D /* HCDtextPaperA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDtextPaperA.m; sourceTree = "<group>"; };
+		401209951C7EAEA60086198D /* HCDtextPaperB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDtextPaperB.h; sourceTree = "<group>"; };
+		401209961C7EAEA60086198D /* HCDtextPaperB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDtextPaperB.m; sourceTree = "<group>"; };
+		401209981C7EAEA60086198D /* HCDFound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDFound.h; sourceTree = "<group>"; };
+		401209991C7EAEA60086198D /* HCDFound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDFound.m; sourceTree = "<group>"; };
+		4012099A1C7EAEA60086198D /* HCDstock1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDstock1.h; sourceTree = "<group>"; };
+		4012099B1C7EAEA60086198D /* HCDstock1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDstock1.m; sourceTree = "<group>"; };
+		4012099C1C7EAEA60086198D /* HCDstock2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDstock2.h; sourceTree = "<group>"; };
+		4012099D1C7EAEA60086198D /* HCDstock2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDstock2.m; sourceTree = "<group>"; };
+		4012099E1C7EAEA60086198D /* HCDstock3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDstock3.h; sourceTree = "<group>"; };
+		4012099F1C7EAEA60086198D /* HCDstock3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDstock3.m; sourceTree = "<group>"; };
+		401209A11C7EAEA60086198D /* HCDPersonBuilderDirector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDPersonBuilderDirector.h; sourceTree = "<group>"; };
+		401209A21C7EAEA60086198D /* HCDPersonBuilderDirector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDPersonBuilderDirector.m; sourceTree = "<group>"; };
+		401209A31C7EAEA60086198D /* HCDPersonFatBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDPersonFatBuilder.h; sourceTree = "<group>"; };
+		401209A41C7EAEA60086198D /* HCDPersonFatBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDPersonFatBuilder.m; sourceTree = "<group>"; };
+		401209A51C7EAEA60086198D /* HCDPersonThinBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDPersonThinBuilder.h; sourceTree = "<group>"; };
+		401209A61C7EAEA60086198D /* HCDPersonThinBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDPersonThinBuilder.m; sourceTree = "<group>"; };
+		401209A71C7EAEA60086198D /* HCDPresionBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDPresionBuilder.h; sourceTree = "<group>"; };
+		401209A91C7EAEA60086198D /* HCDNBAObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDNBAObserver.h; sourceTree = "<group>"; };
+		401209AA1C7EAEA60086198D /* HCDNBAObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDNBAObserver.m; sourceTree = "<group>"; };
+		401209AB1C7EAEA60086198D /* HCDObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDObserver.h; sourceTree = "<group>"; };
+		401209AC1C7EAEA60086198D /* HCDSecreteSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDSecreteSubject.h; sourceTree = "<group>"; };
+		401209AD1C7EAEA60086198D /* HCDSecreteSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDSecreteSubject.m; sourceTree = "<group>"; };
+		401209AE1C7EAEA60086198D /* HCDStockObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDStockObserver.h; sourceTree = "<group>"; };
+		401209AF1C7EAEA60086198D /* HCDStockObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDStockObserver.m; sourceTree = "<group>"; };
+		401209B01C7EAEA60086198D /* HCDSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDSubject.h; sourceTree = "<group>"; };
+		401209B11C7EAEA60086198D /* HCDSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDSubject.m; sourceTree = "<group>"; };
+		401209B21C7EAEA60086198D /* 观察者模式类图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "观察者模式类图.png"; sourceTree = "<group>"; };
+		401209B41C7EAEA60086198D /* HCDAccessDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDAccessDepartment.h; sourceTree = "<group>"; };
+		401209B51C7EAEA60086198D /* HCDAccessDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDAccessDepartment.m; sourceTree = "<group>"; };
+		401209B61C7EAEA60086198D /* HCDAccessFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDAccessFactory.h; sourceTree = "<group>"; };
+		401209B71C7EAEA60086198D /* HCDAccessFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDAccessFactory.m; sourceTree = "<group>"; };
+		401209B81C7EAEA60086198D /* HCDAccessUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDAccessUser.h; sourceTree = "<group>"; };
+		401209B91C7EAEA60086198D /* HCDAccessUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDAccessUser.m; sourceTree = "<group>"; };
+		401209BA1C7EAEA60086198D /* HCDDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDDepartment.h; sourceTree = "<group>"; };
+		401209BB1C7EAEA60086198D /* HCDFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDFactory.h; sourceTree = "<group>"; };
+		401209BC1C7EAEA60086198D /* HCDSqlserverDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDSqlserverDepartment.h; sourceTree = "<group>"; };
+		401209BD1C7EAEA60086198D /* HCDSqlserverDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDSqlserverDepartment.m; sourceTree = "<group>"; };
+		401209BE1C7EAEA60086198D /* HCDSqlserverFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDSqlserverFactory.h; sourceTree = "<group>"; };
+		401209BF1C7EAEA60086198D /* HCDSqlserverFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDSqlserverFactory.m; sourceTree = "<group>"; };
+		401209C01C7EAEA60086198D /* HCDSqlserverUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDSqlserverUser.h; sourceTree = "<group>"; };
+		401209C11C7EAEA60086198D /* HCDSqlserverUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDSqlserverUser.m; sourceTree = "<group>"; };
+		401209C21C7EAEA60086198D /* HCDUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDUser.h; sourceTree = "<group>"; };
+		401209C41C7EAEA60086198D /* HCDAfternoonState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDAfternoonState.h; sourceTree = "<group>"; };
+		401209C51C7EAEA60086198D /* HCDAfternoonState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDAfternoonState.m; sourceTree = "<group>"; };
+		401209C61C7EAEA60086198D /* HCDEventState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDEventState.h; sourceTree = "<group>"; };
+		401209C71C7EAEA60086198D /* HCDEventState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDEventState.m; sourceTree = "<group>"; };
+		401209C81C7EAEA60086198D /* HCDForenoonState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDForenoonState.h; sourceTree = "<group>"; };
+		401209C91C7EAEA60086198D /* HCDForenoonState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDForenoonState.m; sourceTree = "<group>"; };
+		401209CA1C7EAEA60086198D /* HCDNoonState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDNoonState.h; sourceTree = "<group>"; };
+		401209CB1C7EAEA60086198D /* HCDNoonState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDNoonState.m; sourceTree = "<group>"; };
+		401209CC1C7EAEA60086198D /* HCDRestState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDRestState.h; sourceTree = "<group>"; };
+		401209CD1C7EAEA60086198D /* HCDRestState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDRestState.m; sourceTree = "<group>"; };
+		401209CE1C7EAEA60086198D /* HCDSleepState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDSleepState.h; sourceTree = "<group>"; };
+		401209CF1C7EAEA60086198D /* HCDSleepState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDSleepState.m; sourceTree = "<group>"; };
+		401209D01C7EAEA60086198D /* HCDState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDState.h; sourceTree = "<group>"; };
+		401209D11C7EAEA60086198D /* HCDWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDWork.h; sourceTree = "<group>"; };
+		401209D21C7EAEA60086198D /* HCDWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDWork.m; sourceTree = "<group>"; };
+		401209D31C7EAEA60086198D /* 状态模式结构图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "状态模式结构图.png"; sourceTree = "<group>"; };
+		401209F11C7EAF1B0086198D /* SixPrototypeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixPrototypeVC.h; sourceTree = "<group>"; };
+		401209F21C7EAF1B0086198D /* SixPrototypeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixPrototypeVC.m; sourceTree = "<group>"; };
+		401209F41C7EAF2B0086198D /* SevenPrototypeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SevenPrototypeVC.h; sourceTree = "<group>"; };
+		401209F51C7EAF2B0086198D /* SevenPrototypeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SevenPrototypeVC.m; sourceTree = "<group>"; };
+		401209F71C7EAF3A0086198D /* EightPrototypeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EightPrototypeVC.h; sourceTree = "<group>"; };
+		401209F81C7EAF3A0086198D /* EightPrototypeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EightPrototypeVC.m; sourceTree = "<group>"; };
+		401209FA1C7EAF530086198D /* NightPtototypeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NightPtototypeVC.h; sourceTree = "<group>"; };
+		401209FB1C7EAF530086198D /* NightPtototypeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NightPtototypeVC.m; sourceTree = "<group>"; };
+		401209FD1C7EAF8D0086198D /* TenPrototypeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TenPrototypeVC.h; sourceTree = "<group>"; };
+		401209FE1C7EAF8D0086198D /* TenPrototypeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TenPrototypeVC.m; sourceTree = "<group>"; };
+		40120A001C7EAFCC0086198D /* ElevenPrototypeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElevenPrototypeVC.h; sourceTree = "<group>"; };
+		40120A011C7EAFCC0086198D /* ElevenPrototypeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElevenPrototypeVC.m; sourceTree = "<group>"; };
+		40120A031C7EED1A0086198D /* SQLDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLDepartment.h; sourceTree = "<group>"; };
+		40120A041C7EED1A0086198D /* SQLDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLDepartment.m; sourceTree = "<group>"; };
+		40120A051C7EED1A0086198D /* SQLUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLUser.h; sourceTree = "<group>"; };
+		40120A061C7EED1A0086198D /* SQLUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLUser.m; sourceTree = "<group>"; };
+		406DB4811C843F1A00F51093 /* HCDForeignCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDForeignCenter.h; sourceTree = "<group>"; };
+		406DB4821C843F1A00F51093 /* HCDForeignCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDForeignCenter.m; sourceTree = "<group>"; };
+		406DB4831C843F1A00F51093 /* HCDForwards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDForwards.h; sourceTree = "<group>"; };
+		406DB4841C843F1A00F51093 /* HCDForwards.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDForwards.m; sourceTree = "<group>"; };
+		406DB4851C843F1A00F51093 /* HCDPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDPlayer.h; sourceTree = "<group>"; };
+		406DB4861C843F1A00F51093 /* HCDPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDPlayer.m; sourceTree = "<group>"; };
+		406DB4871C843F1A00F51093 /* HCDTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDTranslator.h; sourceTree = "<group>"; };
+		406DB4881C843F1A00F51093 /* HCDTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDTranslator.m; sourceTree = "<group>"; };
+		406DB48D1C843FB700F51093 /* PrototypeTwelfthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrototypeTwelfthViewController.h; sourceTree = "<group>"; };
+		406DB48E1C843FB700F51093 /* PrototypeTwelfthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrototypeTwelfthViewController.m; sourceTree = "<group>"; };
+		406DB4901C84429800F51093 /* 适配器模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "适配器模式.png"; sourceTree = "<group>"; };
+		406DB4931C84442A00F51093 /* HCDGameRoll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDGameRoll.h; sourceTree = "<group>"; };
+		406DB4941C84442A00F51093 /* HCDGameRoll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDGameRoll.m; sourceTree = "<group>"; };
+		406DB4951C84442A00F51093 /* HCDGameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDGameState.h; sourceTree = "<group>"; };
+		406DB4961C84442A00F51093 /* HCDGameState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDGameState.m; sourceTree = "<group>"; };
+		406DB4971C84442A00F51093 /* HCDStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDStateManager.h; sourceTree = "<group>"; };
+		406DB4981C84442A00F51093 /* HCDStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDStateManager.m; sourceTree = "<group>"; };
+		406DB49C1C8444A200F51093 /* PrototypeThirteenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrototypeThirteenViewController.h; sourceTree = "<group>"; };
+		406DB49D1C8444A200F51093 /* PrototypeThirteenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrototypeThirteenViewController.m; sourceTree = "<group>"; };
+		406DB4A01C8445C500F51093 /* HCDCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCompany.h; sourceTree = "<group>"; };
+		406DB4A11C8445C500F51093 /* HCDConcreteCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDConcreteCompany.h; sourceTree = "<group>"; };
+		406DB4A21C8445C500F51093 /* HCDConcreteCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDConcreteCompany.m; sourceTree = "<group>"; };
+		406DB4A31C8445C500F51093 /* HCDFinanceDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDFinanceDepartment.h; sourceTree = "<group>"; };
+		406DB4A41C8445C500F51093 /* HCDFinanceDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDFinanceDepartment.m; sourceTree = "<group>"; };
+		406DB4A51C8445C500F51093 /* HCDHRDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDHRDepartment.h; sourceTree = "<group>"; };
+		406DB4A61C8445C500F51093 /* HCDHRDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDHRDepartment.m; sourceTree = "<group>"; };
+		406DB4AA1C8445E600F51093 /* PrototypeFourteenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrototypeFourteenViewController.h; sourceTree = "<group>"; };
+		406DB4AB1C8445E600F51093 /* PrototypeFourteenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrototypeFourteenViewController.m; sourceTree = "<group>"; };
 		E44444F0183C9C5B00E0E6BF /* GXOnlineDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GXOnlineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E44444F3183C9C5B00E0E6BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E44444F5183C9C5B00E0E6BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -721,6 +865,15 @@
 		400EAAAE1C2A9841000AFE82 /* DesignPatternViews */ = {
 			isa = PBXGroup;
 			children = (
+				406DB49F1C8445C500F51093 /* 14组合模式 */,
+				406DB4921C84442A00F51093 /* 13备忘录模式 */,
+				406DB4801C843F1A00F51093 /* 12适配器模式 */,
+				401209901C7EAEA60086198D /* 6模版方法模式 */,
+				401209971C7EAEA60086198D /* 7外观模式 */,
+				401209A01C7EAEA60086198D /* 8建造者模式 */,
+				401209A81C7EAEA60086198D /* 9观察者模式 */,
+				401209B31C7EAEA60086198D /* 10抽象工厂模式 */,
+				401209C31C7EAEA60086198D /* 11状态模式 */,
 				400EAB2A1C2C00B8000AFE82 /* 5工厂方法模式 */,
 				400EAB1C1C2BF816000AFE82 /* 4代理模式 */,
 				400EAAE11C2AB9A2000AFE82 /* 3装饰模式 */,
@@ -823,15 +976,6 @@
 		400EAB2A1C2C00B8000AFE82 /* 5工厂方法模式 */ = {
 			isa = PBXGroup;
 			children = (
-				400EAB2B1C2C00B8000AFE82 /* HCDCalculate.h */,
-				400EAB2C1C2C00B8000AFE82 /* HCDCalculateAdd.h */,
-				400EAB2D1C2C00B8000AFE82 /* HCDCalculateAdd.m */,
-				400EAB2E1C2C00B8000AFE82 /* HCDCalculateDivide.h */,
-				400EAB2F1C2C00B8000AFE82 /* HCDCalculateDivide.m */,
-				400EAB301C2C00B8000AFE82 /* HCDCalculateMinus.h */,
-				400EAB311C2C00B8000AFE82 /* HCDCalculateMinus.m */,
-				400EAB321C2C00B8000AFE82 /* HCDCalcuteMultiply.h */,
-				400EAB331C2C00B8000AFE82 /* HCDCalcuteMultiply.m */,
 				400EAB341C2C00B8000AFE82 /* HCDfactory.h */,
 				400EAB351C2C00B8000AFE82 /* HCDfactory.m */,
 				400EAB361C2C00B8000AFE82 /* HCDfactoryAdd.h */,
@@ -846,6 +990,175 @@
 				400EAB481C2C00E6000AFE82 /* FiveFactoryViewController.m */,
 			);
 			path = "5工厂方法模式";
+			sourceTree = "<group>";
+		};
+		401209901C7EAEA60086198D /* 6模版方法模式 */ = {
+			isa = PBXGroup;
+			children = (
+				401209911C7EAEA60086198D /* HCDtextPaper.h */,
+				401209921C7EAEA60086198D /* HCDtextPaper.m */,
+				401209931C7EAEA60086198D /* HCDtextPaperA.h */,
+				401209941C7EAEA60086198D /* HCDtextPaperA.m */,
+				401209951C7EAEA60086198D /* HCDtextPaperB.h */,
+				401209961C7EAEA60086198D /* HCDtextPaperB.m */,
+				401209F11C7EAF1B0086198D /* SixPrototypeVC.h */,
+				401209F21C7EAF1B0086198D /* SixPrototypeVC.m */,
+			);
+			path = "6模版方法模式";
+			sourceTree = "<group>";
+		};
+		401209971C7EAEA60086198D /* 7外观模式 */ = {
+			isa = PBXGroup;
+			children = (
+				401209981C7EAEA60086198D /* HCDFound.h */,
+				401209991C7EAEA60086198D /* HCDFound.m */,
+				4012099A1C7EAEA60086198D /* HCDstock1.h */,
+				4012099B1C7EAEA60086198D /* HCDstock1.m */,
+				4012099C1C7EAEA60086198D /* HCDstock2.h */,
+				4012099D1C7EAEA60086198D /* HCDstock2.m */,
+				4012099E1C7EAEA60086198D /* HCDstock3.h */,
+				4012099F1C7EAEA60086198D /* HCDstock3.m */,
+				401209F41C7EAF2B0086198D /* SevenPrototypeVC.h */,
+				401209F51C7EAF2B0086198D /* SevenPrototypeVC.m */,
+			);
+			path = "7外观模式";
+			sourceTree = "<group>";
+		};
+		401209A01C7EAEA60086198D /* 8建造者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				401209A11C7EAEA60086198D /* HCDPersonBuilderDirector.h */,
+				401209A21C7EAEA60086198D /* HCDPersonBuilderDirector.m */,
+				401209A31C7EAEA60086198D /* HCDPersonFatBuilder.h */,
+				401209A41C7EAEA60086198D /* HCDPersonFatBuilder.m */,
+				401209A51C7EAEA60086198D /* HCDPersonThinBuilder.h */,
+				401209A61C7EAEA60086198D /* HCDPersonThinBuilder.m */,
+				401209A71C7EAEA60086198D /* HCDPresionBuilder.h */,
+				401209F71C7EAF3A0086198D /* EightPrototypeVC.h */,
+				401209F81C7EAF3A0086198D /* EightPrototypeVC.m */,
+			);
+			path = "8建造者模式";
+			sourceTree = "<group>";
+		};
+		401209A81C7EAEA60086198D /* 9观察者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				401209B21C7EAEA60086198D /* 观察者模式类图.png */,
+				401209AB1C7EAEA60086198D /* HCDObserver.h */,
+				401209A91C7EAEA60086198D /* HCDNBAObserver.h */,
+				401209AA1C7EAEA60086198D /* HCDNBAObserver.m */,
+				401209AE1C7EAEA60086198D /* HCDStockObserver.h */,
+				401209AF1C7EAEA60086198D /* HCDStockObserver.m */,
+				401209AC1C7EAEA60086198D /* HCDSecreteSubject.h */,
+				401209AD1C7EAEA60086198D /* HCDSecreteSubject.m */,
+				401209B01C7EAEA60086198D /* HCDSubject.h */,
+				401209B11C7EAEA60086198D /* HCDSubject.m */,
+				401209FA1C7EAF530086198D /* NightPtototypeVC.h */,
+				401209FB1C7EAF530086198D /* NightPtototypeVC.m */,
+			);
+			path = "9观察者模式";
+			sourceTree = "<group>";
+		};
+		401209B31C7EAEA60086198D /* 10抽象工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				401209BB1C7EAEA60086198D /* HCDFactory.h */,
+				401209C21C7EAEA60086198D /* HCDUser.h */,
+				401209BA1C7EAEA60086198D /* HCDDepartment.h */,
+				401209B61C7EAEA60086198D /* HCDAccessFactory.h */,
+				401209B71C7EAEA60086198D /* HCDAccessFactory.m */,
+				401209B41C7EAEA60086198D /* HCDAccessDepartment.h */,
+				401209B51C7EAEA60086198D /* HCDAccessDepartment.m */,
+				401209B81C7EAEA60086198D /* HCDAccessUser.h */,
+				401209B91C7EAEA60086198D /* HCDAccessUser.m */,
+				401209BE1C7EAEA60086198D /* HCDSqlserverFactory.h */,
+				401209BF1C7EAEA60086198D /* HCDSqlserverFactory.m */,
+				401209C01C7EAEA60086198D /* HCDSqlserverUser.h */,
+				401209C11C7EAEA60086198D /* HCDSqlserverUser.m */,
+				401209BC1C7EAEA60086198D /* HCDSqlserverDepartment.h */,
+				401209BD1C7EAEA60086198D /* HCDSqlserverDepartment.m */,
+				401209FD1C7EAF8D0086198D /* TenPrototypeVC.h */,
+				401209FE1C7EAF8D0086198D /* TenPrototypeVC.m */,
+				40120A051C7EED1A0086198D /* SQLUser.h */,
+				40120A061C7EED1A0086198D /* SQLUser.m */,
+				40120A031C7EED1A0086198D /* SQLDepartment.h */,
+				40120A041C7EED1A0086198D /* SQLDepartment.m */,
+			);
+			path = "10抽象工厂模式";
+			sourceTree = "<group>";
+		};
+		401209C31C7EAEA60086198D /* 11状态模式 */ = {
+			isa = PBXGroup;
+			children = (
+				401209C81C7EAEA60086198D /* HCDForenoonState.h */,
+				401209C91C7EAEA60086198D /* HCDForenoonState.m */,
+				401209CA1C7EAEA60086198D /* HCDNoonState.h */,
+				401209CB1C7EAEA60086198D /* HCDNoonState.m */,
+				401209C41C7EAEA60086198D /* HCDAfternoonState.h */,
+				401209C51C7EAEA60086198D /* HCDAfternoonState.m */,
+				401209C61C7EAEA60086198D /* HCDEventState.h */,
+				401209C71C7EAEA60086198D /* HCDEventState.m */,
+				401209CE1C7EAEA60086198D /* HCDSleepState.h */,
+				401209CF1C7EAEA60086198D /* HCDSleepState.m */,
+				401209CC1C7EAEA60086198D /* HCDRestState.h */,
+				401209CD1C7EAEA60086198D /* HCDRestState.m */,
+				401209D01C7EAEA60086198D /* HCDState.h */,
+				401209D11C7EAEA60086198D /* HCDWork.h */,
+				401209D21C7EAEA60086198D /* HCDWork.m */,
+				401209D31C7EAEA60086198D /* 状态模式结构图.png */,
+				40120A001C7EAFCC0086198D /* ElevenPrototypeVC.h */,
+				40120A011C7EAFCC0086198D /* ElevenPrototypeVC.m */,
+			);
+			path = "11状态模式";
+			sourceTree = "<group>";
+		};
+		406DB4801C843F1A00F51093 /* 12适配器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				406DB4901C84429800F51093 /* 适配器模式.png */,
+				406DB4811C843F1A00F51093 /* HCDForeignCenter.h */,
+				406DB4821C843F1A00F51093 /* HCDForeignCenter.m */,
+				406DB4831C843F1A00F51093 /* HCDForwards.h */,
+				406DB4841C843F1A00F51093 /* HCDForwards.m */,
+				406DB4871C843F1A00F51093 /* HCDTranslator.h */,
+				406DB4881C843F1A00F51093 /* HCDTranslator.m */,
+				406DB4851C843F1A00F51093 /* HCDPlayer.h */,
+				406DB4861C843F1A00F51093 /* HCDPlayer.m */,
+				406DB48D1C843FB700F51093 /* PrototypeTwelfthViewController.h */,
+				406DB48E1C843FB700F51093 /* PrototypeTwelfthViewController.m */,
+			);
+			path = "12适配器模式";
+			sourceTree = "<group>";
+		};
+		406DB4921C84442A00F51093 /* 13备忘录模式 */ = {
+			isa = PBXGroup;
+			children = (
+				406DB4931C84442A00F51093 /* HCDGameRoll.h */,
+				406DB4941C84442A00F51093 /* HCDGameRoll.m */,
+				406DB4951C84442A00F51093 /* HCDGameState.h */,
+				406DB4961C84442A00F51093 /* HCDGameState.m */,
+				406DB4971C84442A00F51093 /* HCDStateManager.h */,
+				406DB4981C84442A00F51093 /* HCDStateManager.m */,
+				406DB49C1C8444A200F51093 /* PrototypeThirteenViewController.h */,
+				406DB49D1C8444A200F51093 /* PrototypeThirteenViewController.m */,
+			);
+			path = "13备忘录模式";
+			sourceTree = "<group>";
+		};
+		406DB49F1C8445C500F51093 /* 14组合模式 */ = {
+			isa = PBXGroup;
+			children = (
+				406DB4A01C8445C500F51093 /* HCDCompany.h */,
+				406DB4A11C8445C500F51093 /* HCDConcreteCompany.h */,
+				406DB4A21C8445C500F51093 /* HCDConcreteCompany.m */,
+				406DB4A31C8445C500F51093 /* HCDFinanceDepartment.h */,
+				406DB4A41C8445C500F51093 /* HCDFinanceDepartment.m */,
+				406DB4A51C8445C500F51093 /* HCDHRDepartment.h */,
+				406DB4A61C8445C500F51093 /* HCDHRDepartment.m */,
+				406DB4AA1C8445E600F51093 /* PrototypeFourteenViewController.h */,
+				406DB4AB1C8445E600F51093 /* PrototypeFourteenViewController.m */,
+			);
+			path = "14组合模式";
 			sourceTree = "<group>";
 		};
 		E44444E7183C9C5B00E0E6BF = {
@@ -1010,10 +1323,12 @@
 				400EAA901C2A8DAD000AFE82 /* tab_嘀嘀找房_暗红.png in Resources */,
 				400EAA811C2A8DAD000AFE82 /* AppIcon.png in Resources */,
 				400EAA871C2A8DAD000AFE82 /* Icon_Small.png in Resources */,
+				406DB4911C84429800F51093 /* 适配器模式.png in Resources */,
 				400EAA911C2A8DAD000AFE82 /* tab_嘀嘀找房_暗红@2x.png in Resources */,
 				400EAA861C2A8DAD000AFE82 /* gx副本.png in Resources */,
 				400EAA971C2A8DAD000AFE82 /* tab_找室友_亮@2x.png in Resources */,
 				400EAA931C2A8DAD000AFE82 /* tab_我的租房_亮@2x.png in Resources */,
+				401209E21C7EAEA60086198D /* 观察者模式类图.png in Resources */,
 				E44444FE183C9C5B00E0E6BF /* InfoPlist.strings in Resources */,
 				400EAA961C2A8DAD000AFE82 /* tab_找室友_亮.png in Resources */,
 				400EAA981C2A8DAD000AFE82 /* tab_找室友_暗.png in Resources */,
@@ -1031,6 +1346,7 @@
 				400EAA891C2A8DAD000AFE82 /* LaunchImage.png in Resources */,
 				400EAA8A1C2A8DAD000AFE82 /* LaunchImage@2x.png in Resources */,
 				400EAA9B1C2A8DAD000AFE82 /* tab_租房_亮@2x.png in Resources */,
+				401209F01C7EAEA60086198D /* 状态模式结构图.png in Resources */,
 				400EAA841C2A8DAD000AFE82 /* gx120.png in Resources */,
 				400EAA9C1C2A8DAD000AFE82 /* tab_租房_暗.png in Resources */,
 				400EAB041C2AB9A2000AFE82 /* 装饰模式图片.jpg in Resources */,
@@ -1060,50 +1376,76 @@
 				400EAA7D1C2A8DAD000AFE82 /* UIWebViewController.m in Sources */,
 				400EAA5F1C2A8DAD000AFE82 /* NSDataViewController.m in Sources */,
 				400EAA651C2A8DAD000AFE82 /* GxDrawViewsViewController.m in Sources */,
+				406DB48B1C843F1A00F51093 /* HCDPlayer.m in Sources */,
 				400EAA6D1C2A8DAD000AFE82 /* UIActionSheetViewController.m in Sources */,
 				400EAA5B1C2A8DAD000AFE82 /* DataFilterViewController.m in Sources */,
+				401209DD1C7EAEA60086198D /* HCDPersonThinBuilder.m in Sources */,
+				401209EB1C7EAEA60086198D /* HCDForenoonState.m in Sources */,
 				400EAAAD1C2A91F5000AFE82 /* DesignPatternViewController.m in Sources */,
 				400EAA6A1C2A8DAD000AFE82 /* UIView+ScreenShot.m in Sources */,
 				400EAA571C2A8DAD000AFE82 /* GXButtonList.m in Sources */,
+				401209ED1C7EAEA60086198D /* HCDRestState.m in Sources */,
 				401209891C7C38930086198D /* Gx_Two_Add.m in Sources */,
 				400EAA721C2A8DAD000AFE82 /* UIPageControlViewController.m in Sources */,
+				406DB48C1C843F1A00F51093 /* HCDTranslator.m in Sources */,
 				4012098C1C7C38A10086198D /* Gx_Two_Multi.m in Sources */,
+				401209F91C7EAF3A0086198D /* EightPrototypeVC.m in Sources */,
 				400EAA591C2A8DAD000AFE82 /* CodeBlockViewController.m in Sources */,
+				401209D71C7EAEA60086198D /* HCDFound.m in Sources */,
+				406DB4A81C8445C500F51093 /* HCDFinanceDepartment.m in Sources */,
 				401209861C7C38570086198D /* Gx_Two_Create.m in Sources */,
+				40120A081C7EED1A0086198D /* SQLUser.m in Sources */,
 				400EAA711C2A8DAD000AFE82 /* UIDatePickerViewController.m in Sources */,
+				406DB48F1C843FB700F51093 /* PrototypeTwelfthViewController.m in Sources */,
+				406DB4891C843F1A00F51093 /* HCDForeignCenter.m in Sources */,
 				400EAA751C2A8DAD000AFE82 /* UISwitchViewController.m in Sources */,
 				401209801C7C04AD0086198D /* Gx_FacateOne.m in Sources */,
+				401209E41C7EAEA60086198D /* HCDAccessFactory.m in Sources */,
+				406DB4A71C8445C500F51093 /* HCDConcreteCompany.m in Sources */,
+				401209EC1C7EAEA60086198D /* HCDNoonState.m in Sources */,
 				400EAABD1C2A98BE000AFE82 /* CommonTool.m in Sources */,
 				400EAAD91C2AB144000AFE82 /* HCDCashNormal.m in Sources */,
+				406DB4A91C8445C500F51093 /* HCDHRDepartment.m in Sources */,
 				400EAAC01C2A98BE000AFE82 /* HCDCalculateMinus.m in Sources */,
 				400EAA801C2A8DAD000AFE82 /* GxTableViewController.m in Sources */,
 				400EAA691C2A8DAD000AFE82 /* ScreenCatchViewController.m in Sources */,
-				400EAB401C2C00B8000AFE82 /* HCDCalculateMinus.m in Sources */,
 				400EAADA1C2AB144000AFE82 /* HCDCashRobate.m in Sources */,
 				401209831C7C04BB0086198D /* Gx_FacateTwo.m in Sources */,
 				400EAB441C2C00B8000AFE82 /* HCDfactoryDivide.m in Sources */,
 				400EAA6C1C2A8DAD000AFE82 /* InterfaceViewController.m in Sources */,
 				400EAAFE1C2AB9A2000AFE82 /* HCDnokiaPhone.m in Sources */,
+				401209E71C7EAEA60086198D /* HCDSqlserverFactory.m in Sources */,
 				400EAAFB1C2AB9A2000AFE82 /* HCDdecorator.m in Sources */,
-				400EAB411C2C00B8000AFE82 /* HCDCalcuteMultiply.m in Sources */,
+				401209E91C7EAEA60086198D /* HCDAfternoonState.m in Sources */,
 				400EAA781C2A8DAD000AFE82 /* UILabelViewController.m in Sources */,
 				400EAACC1C2A9D36000AFE82 /* OnePrototypeViewController.m in Sources */,
+				406DB48A1C843F1A00F51093 /* HCDForwards.m in Sources */,
+				401209EF1C7EAEA60086198D /* HCDWork.m in Sources */,
+				401209E81C7EAEA60086198D /* HCDSqlserverUser.m in Sources */,
 				400EAA701C2A8DAD000AFE82 /* UIControlViewController.m in Sources */,
 				400EAA7A1C2A8DAD000AFE82 /* UIProgressViewController.m in Sources */,
 				400EAABF1C2A98BE000AFE82 /* HCDCalculateDivide.m in Sources */,
 				400EAA681C2A8DAD000AFE82 /* FunctionsViewController.m in Sources */,
 				400EAB241C2BF816000AFE82 /* HCDproxy.m in Sources */,
+				401209E51C7EAEA60086198D /* HCDAccessUser.m in Sources */,
+				406DB4AC1C8445E600F51093 /* PrototypeFourteenViewController.m in Sources */,
+				401209E11C7EAEA60086198D /* HCDSubject.m in Sources */,
+				401209F61C7EAF2B0086198D /* SevenPrototypeVC.m in Sources */,
 				400EAA7E1C2A8DAD000AFE82 /* DemoBaseViewController.m in Sources */,
+				401209EE1C7EAEA60086198D /* HCDSleepState.m in Sources */,
 				400EAA5C1C2A8DAD000AFE82 /* LocateSaveViewController.m in Sources */,
-				400EAB3F1C2C00B8000AFE82 /* HCDCalculateDivide.m in Sources */,
 				E4444500183C9C5B00E0E6BF /* main.m in Sources */,
 				400EAA621C2A8DAD000AFE82 /* DrawCircleView.m in Sources */,
+				401209D51C7EAEA60086198D /* HCDtextPaperA.m in Sources */,
 				4012098F1C7C38C50086198D /* Gx_Two_Main.m in Sources */,
+				401209D91C7EAEA60086198D /* HCDstock2.m in Sources */,
+				401209F31C7EAF1B0086198D /* SixPrototypeVC.m in Sources */,
 				400EAA771C2A8DAD000AFE82 /* UIImageViewController.m in Sources */,
 				400EAB261C2BF816000AFE82 /* HCDschoolGirl.m in Sources */,
 				400EAA791C2A8DAD000AFE82 /* UIPickerViewController.m in Sources */,
 				400EAA631C2A8DAD000AFE82 /* DrawCircleViewController.m in Sources */,
 				400EAAD81C2AB144000AFE82 /* HCDCashContext.m in Sources */,
+				401209DA1C7EAEA60086198D /* HCDstock3.m in Sources */,
 				400EAA6E1C2A8DAD000AFE82 /* UIAlertViewController.m in Sources */,
 				400EAB461C2C00B8000AFE82 /* HCDfactoryMultiply.m in Sources */,
 				400EAA731C2A8DAD000AFE82 /* UISegmentedControlViewController.m in Sources */,
@@ -1113,30 +1455,48 @@
 				400EAA6B1C2A8DAD000AFE82 /* SellViewController.m in Sources */,
 				400EAB251C2BF816000AFE82 /* HCDpursuit.m in Sources */,
 				400EAAFF1C2AB9A2000AFE82 /* HCDstractCellPhone.m in Sources */,
+				401209DE1C7EAEA60086198D /* HCDNBAObserver.m in Sources */,
+				401209FF1C7EAF8D0086198D /* TenPrototypeVC.m in Sources */,
 				400EAA7C1C2A8DAD000AFE82 /* UISearchBarViewController.m in Sources */,
 				400EAA661C2A8DAD000AFE82 /* transluView.m in Sources */,
 				400EAABE1C2A98BE000AFE82 /* HCDCalculateAdd.m in Sources */,
+				40120A021C7EAFCC0086198D /* ElevenPrototypeVC.m in Sources */,
+				406DB49A1C84442A00F51093 /* HCDGameState.m in Sources */,
 				400EAAE01C2AB1D6000AFE82 /* TwoStrategyViewController.m in Sources */,
+				40120A071C7EED1A0086198D /* SQLDepartment.m in Sources */,
+				401209E61C7EAEA60086198D /* HCDSqlserverDepartment.m in Sources */,
 				400EAB291C2BF839000AFE82 /* FourProxyViewController.m in Sources */,
 				400EAA5E1C2A8DAD000AFE82 /* MyCollectionCell.m in Sources */,
+				401209DC1C7EAEA60086198D /* HCDPersonFatBuilder.m in Sources */,
 				400EAA7F1C2A8DAD000AFE82 /* OtherViewController.m in Sources */,
+				401209E01C7EAEA60086198D /* HCDStockObserver.m in Sources */,
 				400EAA741C2A8DAD000AFE82 /* UISliderViewController.m in Sources */,
 				400EAAD71C2AB144000AFE82 /* HCDCaseReturn.m in Sources */,
 				400EAA671C2A8DAD000AFE82 /* UIView+ImageShot.m in Sources */,
+				406DB4991C84442A00F51093 /* HCDGameRoll.m in Sources */,
+				406DB49E1C8444A200F51093 /* PrototypeThirteenViewController.m in Sources */,
 				400EAA761C2A8DAD000AFE82 /* UITextFieldViewController.m in Sources */,
+				401209FC1C7EAF530086198D /* NightPtototypeVC.m in Sources */,
 				400EAA6F1C2A8DAD000AFE82 /* UIButtonViewController.m in Sources */,
+				401209DF1C7EAEA60086198D /* HCDSecreteSubject.m in Sources */,
 				400EAA7B1C2A8DAD000AFE82 /* UIScrollViewController.m in Sources */,
+				401209E31C7EAEA60086198D /* HCDAccessDepartment.m in Sources */,
 				400EAA601C2A8DAD000AFE82 /* NSPredicateViewController.m in Sources */,
 				400EAB071C2AB9ED000AFE82 /* ThreeDecoratorViewController.m in Sources */,
-				400EAB3E1C2C00B8000AFE82 /* HCDCalculateAdd.m in Sources */,
+				401209EA1C7EAEA60086198D /* HCDEventState.m in Sources */,
 				4012097D1C7C03150086198D /* Gx_OneCreate.m in Sources */,
 				400EAA611C2A8DAD000AFE82 /* AnimaTryViewController.m in Sources */,
+				401209D61C7EAEA60086198D /* HCDtextPaperB.m in Sources */,
+				401209D81C7EAEA60086198D /* HCDstock1.m in Sources */,
 				400EAAC11C2A98BE000AFE82 /* HCDCalcuteFactory.m in Sources */,
 				400EAB431C2C00B8000AFE82 /* HCDfactoryAdd.m in Sources */,
+				401209DB1C7EAEA60086198D /* HCDPersonBuilderDirector.m in Sources */,
 				400EAB421C2C00B8000AFE82 /* HCDfactory.m in Sources */,
 				400EAAC21C2A98BE000AFE82 /* HCDCalcuteMultiply.m in Sources */,
 				400EAAFC1C2AB9A2000AFE82 /* HCDdecoratorBluetooth.m in Sources */,
 				400EAB451C2C00B8000AFE82 /* HCDfactoryMinus.m in Sources */,
+				401209D41C7EAEA60086198D /* HCDtextPaper.m in Sources */,
+				406DB49B1C84442A00F51093 /* HCDStateManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

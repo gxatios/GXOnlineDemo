@@ -1,31 +1,33 @@
 //
-//  FourProxyViewController.m
+//  PrototypeTwelfthViewController.m
 //  GXOnlineDemo
 //
-//  Created by Gx on 15/12/24.
-//  Copyright © 2015年 xin gao. All rights reserved.
+//  Created by Gx on 16/2/29.
+//  Copyright © 2016年 xin gao. All rights reserved.
 //
 
-#import "FourProxyViewController.h"
-#import "HCDpursuit.h"
-#import "HCDproxy.h"
-#import "HCDschoolGirl.h"
+#import "PrototypeTwelfthViewController.h"
+#import "HCDPlayer.h"
+#import "HCDForwards.h"
+#import "HCDForeignCenter.h"
+#import "HCDTranslator.h"
 
-@interface FourProxyViewController ()
+@interface PrototypeTwelfthViewController ()
 
 @end
 
-@implementation FourProxyViewController
+@implementation PrototypeTwelfthViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    HCDschoolGirl *girl = [[HCDschoolGirl alloc]init];
-    girl.name = @"哈哈哈哈哈";
-    HCDproxy *proxy = [[HCDproxy alloc]initWithSchoolGirl:girl];
-    [proxy giveFlowers];
-    [proxy giveDolls];
-    [proxy giveChocolate];
+    
+    HCDPlayer *forward = [[HCDForwards alloc]initWithName:@"maidi"];
+    [forward attack];
+    [forward defense];
+    HCDPlayer *foreignCenter = [[HCDTranslator alloc]initWithName:@"姚明"];
+    [foreignCenter attack];
+    [foreignCenter defense];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -1,31 +1,25 @@
 //
-//  FourProxyViewController.m
+//  SevenPrototypeVC.m
 //  GXOnlineDemo
 //
-//  Created by Gx on 15/12/24.
-//  Copyright © 2015年 xin gao. All rights reserved.
+//  Created by Gx on 16/2/25.
+//  Copyright © 2016年 xin gao. All rights reserved.
 //
 
-#import "FourProxyViewController.h"
-#import "HCDpursuit.h"
-#import "HCDproxy.h"
-#import "HCDschoolGirl.h"
-
-@interface FourProxyViewController ()
+#import "SevenPrototypeVC.h"
+#import "HCDFound.h"
+@interface SevenPrototypeVC ()
 
 @end
 
-@implementation FourProxyViewController
+@implementation SevenPrototypeVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    HCDschoolGirl *girl = [[HCDschoolGirl alloc]init];
-    girl.name = @"哈哈哈哈哈";
-    HCDproxy *proxy = [[HCDproxy alloc]initWithSchoolGirl:girl];
-    [proxy giveFlowers];
-    [proxy giveDolls];
-    [proxy giveChocolate];
+    HCDFound *found = [[HCDFound alloc]init];
+    [found buyFund];
+    [found sellFund];
 }
 
 - (void)didReceiveMemoryWarning {

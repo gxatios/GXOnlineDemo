@@ -1,31 +1,31 @@
 //
-//  FourProxyViewController.m
+//  SixPrototypeVC.m
 //  GXOnlineDemo
 //
-//  Created by Gx on 15/12/24.
-//  Copyright © 2015年 xin gao. All rights reserved.
+//  Created by Gx on 16/2/25.
+//  Copyright © 2016年 xin gao. All rights reserved.
 //
 
-#import "FourProxyViewController.h"
-#import "HCDpursuit.h"
-#import "HCDproxy.h"
-#import "HCDschoolGirl.h"
-
-@interface FourProxyViewController ()
+#import "SixPrototypeVC.h"
+#import "HCDtextPaper.h"
+#import "HCDtextPaperA.h"
+#import "HCDtextPaperB.h"
+@interface SixPrototypeVC ()
 
 @end
 
-@implementation FourProxyViewController
+@implementation SixPrototypeVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    HCDschoolGirl *girl = [[HCDschoolGirl alloc]init];
-    girl.name = @"哈哈哈哈哈";
-    HCDproxy *proxy = [[HCDproxy alloc]initWithSchoolGirl:girl];
-    [proxy giveFlowers];
-    [proxy giveDolls];
-    [proxy giveChocolate];
+    HCDtextPaper *paperA = [[HCDtextPaperA alloc]init];
+    [paperA testQuestion1];
+    [paperA testQuestion2];
+    
+    HCDtextPaper *paperB = [[HCDtextPaperB alloc]init];
+    [paperB testQuestion1];
+    [paperB testQuestion2];
 }
 
 - (void)didReceiveMemoryWarning {
