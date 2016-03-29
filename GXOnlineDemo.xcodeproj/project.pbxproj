@@ -155,6 +155,56 @@
 		40120A021C7EAFCC0086198D /* ElevenPrototypeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40120A011C7EAFCC0086198D /* ElevenPrototypeVC.m */; };
 		40120A071C7EED1A0086198D /* SQLDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 40120A041C7EED1A0086198D /* SQLDepartment.m */; };
 		40120A081C7EED1A0086198D /* SQLUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 40120A061C7EED1A0086198D /* SQLUser.m */; };
+		4013A90F1C8FD9870064AB3A /* 迭代器模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 4013A90E1C8FD9870064AB3A /* 迭代器模式.png */; };
+		4013A9121C900A2A0064AB3A /* SixteenProtoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4013A9111C900A2A0064AB3A /* SixteenProtoryViewController.m */; };
+		4013A9151C900A710064AB3A /* SeventeenProtoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4013A9141C900A710064AB3A /* SeventeenProtoryViewController.m */; };
+		4013A9171C900A7E0064AB3A /* 桥接模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 4013A9161C900A7E0064AB3A /* 桥接模式.png */; };
+		4013A91A1C9019BB0064AB3A /* EighteenProtoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4013A9191C9019BB0064AB3A /* EighteenProtoryVC.m */; };
+		4013A91E1C901C310064AB3A /* 职责链模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 4013A91D1C901C310064AB3A /* 职责链模式.png */; };
+		4013A9211C901C670064AB3A /* NignteenProtoryVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 4013A9201C901C670064AB3A /* NignteenProtoryVc.m */; };
+		4013A9241C90228B0064AB3A /* TwentyProtoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4013A9231C90228B0064AB3A /* TwentyProtoryViewController.m */; };
+		4013A9271C902B670064AB3A /* TwentyOneProtoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4013A9261C902B670064AB3A /* TwentyOneProtoryViewController.m */; };
+		4013A92A1C902BA90064AB3A /* TwentyTwoProtoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4013A9291C902BA90064AB3A /* TwentyTwoProtoryViewController.m */; };
+		4013A92D1C902C130064AB3A /* TwentyThreeProtoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4013A92C1C902C130064AB3A /* TwentyThreeProtoryViewController.m */; };
+		40648C931C8824DB00B5DD55 /* HCDSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C3D1C8824DB00B5DD55 /* HCDSingleton.m */; };
+		40648C941C8824DB00B5DD55 /* HCDAddressListSofeware.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C401C8824DB00B5DD55 /* HCDAddressListSofeware.m */; };
+		40648C951C8824DB00B5DD55 /* HCDGameNokiaSoftware.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C421C8824DB00B5DD55 /* HCDGameNokiaSoftware.m */; };
+		40648C961C8824DB00B5DD55 /* HCDGameSoftware.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C441C8824DB00B5DD55 /* HCDGameSoftware.m */; };
+		40648C971C8824DB00B5DD55 /* HCDNokiaPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C461C8824DB00B5DD55 /* HCDNokiaPhone.m */; };
+		40648C981C8824DB00B5DD55 /* HCDPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C481C8824DB00B5DD55 /* HCDPhone.m */; };
+		40648C991C8824DB00B5DD55 /* HCDSonyPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C4B1C8824DB00B5DD55 /* HCDSonyPhone.m */; };
+		40648C9A1C8824DB00B5DD55 /* HCDChickenOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C4E1C8824DB00B5DD55 /* HCDChickenOrder.m */; };
+		40648C9B1C8824DB00B5DD55 /* HCDCustomr.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C501C8824DB00B5DD55 /* HCDCustomr.m */; };
+		40648C9C1C8824DB00B5DD55 /* HCDMuttonOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C521C8824DB00B5DD55 /* HCDMuttonOrder.m */; };
+		40648C9D1C8824DB00B5DD55 /* HCDOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C541C8824DB00B5DD55 /* HCDOrder.m */; };
+		40648C9E1C8824DB00B5DD55 /* HCDWaiter.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C561C8824DB00B5DD55 /* HCDWaiter.m */; };
+		40648C9F1C8824DB00B5DD55 /* HCDWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C581C8824DB00B5DD55 /* HCDWorker.m */; };
+		40648CA01C8824DB00B5DD55 /* HCDCommonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C5B1C8824DB00B5DD55 /* HCDCommonManager.m */; };
+		40648CA11C8824DB00B5DD55 /* HCDGenaralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C5D1C8824DB00B5DD55 /* HCDGenaralManager.m */; };
+		40648CA21C8824DB00B5DD55 /* HCDMajorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C5F1C8824DB00B5DD55 /* HCDMajorManager.m */; };
+		40648CA31C8824DB00B5DD55 /* HCDMnager.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C611C8824DB00B5DD55 /* HCDMnager.m */; };
+		40648CA41C8824DB00B5DD55 /* HCDReuquest.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C631C8824DB00B5DD55 /* HCDReuquest.m */; };
+		40648CA61C8824DB00B5DD55 /* HCDAbstractColleague.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C671C8824DB00B5DD55 /* HCDAbstractColleague.m */; };
+		40648CA71C8824DB00B5DD55 /* HCDAbstractMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C691C8824DB00B5DD55 /* HCDAbstractMediator.m */; };
+		40648CA81C8824DB00B5DD55 /* HCDColleagueA.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C6B1C8824DB00B5DD55 /* HCDColleagueA.m */; };
+		40648CA91C8824DB00B5DD55 /* HCDColleagueB.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C6D1C8824DB00B5DD55 /* HCDColleagueB.m */; };
+		40648CAA1C8824DB00B5DD55 /* HCDMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C6F1C8824DB00B5DD55 /* HCDMediator.m */; };
+		40648CAB1C8824DB00B5DD55 /* 中介者模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 40648C711C8824DB00B5DD55 /* 中介者模式.png */; };
+		40648CAC1C8824DB00B5DD55 /* HCDConcreteWebSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C741C8824DB00B5DD55 /* HCDConcreteWebSite.m */; };
+		40648CAD1C8824DB00B5DD55 /* HCDUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C761C8824DB00B5DD55 /* HCDUser.m */; };
+		40648CAE1C8824DB00B5DD55 /* HCDWebSiteFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C791C8824DB00B5DD55 /* HCDWebSiteFactory.m */; };
+		40648CAF1C8824DB00B5DD55 /* 享元模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 40648C7A1C8824DB00B5DD55 /* 享元模式.png */; };
+		40648CB01C8824DB00B5DD55 /* HCDAbstractExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C7D1C8824DB00B5DD55 /* HCDAbstractExpression.m */; };
+		40648CB11C8824DB00B5DD55 /* HCDContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C7F1C8824DB00B5DD55 /* HCDContext.m */; };
+		40648CB21C8824DB00B5DD55 /* HCDNonterminalExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C811C8824DB00B5DD55 /* HCDNonterminalExpression.m */; };
+		40648CB31C8824DB00B5DD55 /* HCDTerminalExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C831C8824DB00B5DD55 /* HCDTerminalExpression.m */; };
+		40648CB41C8824DB00B5DD55 /* HCDConcreteElementA.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C861C8824DB00B5DD55 /* HCDConcreteElementA.m */; };
+		40648CB51C8824DB00B5DD55 /* HCDConcreteElementB.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C881C8824DB00B5DD55 /* HCDConcreteElementB.m */; };
+		40648CB61C8824DB00B5DD55 /* HCDConcreteVisitor1.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C8A1C8824DB00B5DD55 /* HCDConcreteVisitor1.m */; };
+		40648CB71C8824DB00B5DD55 /* HCDConcreteVisitor2.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C8C1C8824DB00B5DD55 /* HCDConcreteVisitor2.m */; };
+		40648CB81C8824DB00B5DD55 /* HCDElements.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C8E1C8824DB00B5DD55 /* HCDElements.m */; };
+		40648CB91C8824DB00B5DD55 /* HCDObjectStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C901C8824DB00B5DD55 /* HCDObjectStructure.m */; };
+		40648CBA1C8824DB00B5DD55 /* HCDVisitors.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648C921C8824DB00B5DD55 /* HCDVisitors.m */; };
 		406DB4891C843F1A00F51093 /* HCDForeignCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 406DB4821C843F1A00F51093 /* HCDForeignCenter.m */; };
 		406DB48A1C843F1A00F51093 /* HCDForwards.m in Sources */ = {isa = PBXBuildFile; fileRef = 406DB4841C843F1A00F51093 /* HCDForwards.m */; };
 		406DB48B1C843F1A00F51093 /* HCDPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 406DB4861C843F1A00F51093 /* HCDPlayer.m */; };
@@ -467,6 +517,104 @@
 		40120A041C7EED1A0086198D /* SQLDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLDepartment.m; sourceTree = "<group>"; };
 		40120A051C7EED1A0086198D /* SQLUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLUser.h; sourceTree = "<group>"; };
 		40120A061C7EED1A0086198D /* SQLUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLUser.m; sourceTree = "<group>"; };
+		4013A90E1C8FD9870064AB3A /* 迭代器模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "迭代器模式.png"; sourceTree = "<group>"; };
+		4013A9101C900A2A0064AB3A /* SixteenProtoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixteenProtoryViewController.h; sourceTree = "<group>"; };
+		4013A9111C900A2A0064AB3A /* SixteenProtoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixteenProtoryViewController.m; sourceTree = "<group>"; };
+		4013A9131C900A710064AB3A /* SeventeenProtoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeventeenProtoryViewController.h; sourceTree = "<group>"; };
+		4013A9141C900A710064AB3A /* SeventeenProtoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeventeenProtoryViewController.m; sourceTree = "<group>"; };
+		4013A9161C900A7E0064AB3A /* 桥接模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桥接模式.png"; sourceTree = "<group>"; };
+		4013A9181C9019BB0064AB3A /* EighteenProtoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EighteenProtoryVC.h; sourceTree = "<group>"; };
+		4013A9191C9019BB0064AB3A /* EighteenProtoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EighteenProtoryVC.m; sourceTree = "<group>"; };
+		4013A91D1C901C310064AB3A /* 职责链模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "职责链模式.png"; sourceTree = "<group>"; };
+		4013A91F1C901C670064AB3A /* NignteenProtoryVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NignteenProtoryVc.h; sourceTree = "<group>"; };
+		4013A9201C901C670064AB3A /* NignteenProtoryVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NignteenProtoryVc.m; sourceTree = "<group>"; };
+		4013A9221C90228B0064AB3A /* TwentyProtoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwentyProtoryViewController.h; sourceTree = "<group>"; };
+		4013A9231C90228B0064AB3A /* TwentyProtoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwentyProtoryViewController.m; sourceTree = "<group>"; };
+		4013A9251C902B670064AB3A /* TwentyOneProtoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwentyOneProtoryViewController.h; sourceTree = "<group>"; };
+		4013A9261C902B670064AB3A /* TwentyOneProtoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwentyOneProtoryViewController.m; sourceTree = "<group>"; };
+		4013A9281C902BA90064AB3A /* TwentyTwoProtoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwentyTwoProtoryViewController.h; sourceTree = "<group>"; };
+		4013A9291C902BA90064AB3A /* TwentyTwoProtoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwentyTwoProtoryViewController.m; sourceTree = "<group>"; };
+		4013A92B1C902C130064AB3A /* TwentyThreeProtoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwentyThreeProtoryViewController.h; sourceTree = "<group>"; };
+		4013A92C1C902C130064AB3A /* TwentyThreeProtoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwentyThreeProtoryViewController.m; sourceTree = "<group>"; };
+		40648C3C1C8824DB00B5DD55 /* HCDSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDSingleton.h; sourceTree = "<group>"; };
+		40648C3D1C8824DB00B5DD55 /* HCDSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDSingleton.m; sourceTree = "<group>"; };
+		40648C3F1C8824DB00B5DD55 /* HCDAddressListSofeware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDAddressListSofeware.h; sourceTree = "<group>"; };
+		40648C401C8824DB00B5DD55 /* HCDAddressListSofeware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDAddressListSofeware.m; sourceTree = "<group>"; };
+		40648C411C8824DB00B5DD55 /* HCDGameNokiaSoftware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDGameNokiaSoftware.h; sourceTree = "<group>"; };
+		40648C421C8824DB00B5DD55 /* HCDGameNokiaSoftware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDGameNokiaSoftware.m; sourceTree = "<group>"; };
+		40648C431C8824DB00B5DD55 /* HCDGameSoftware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDGameSoftware.h; sourceTree = "<group>"; };
+		40648C441C8824DB00B5DD55 /* HCDGameSoftware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDGameSoftware.m; sourceTree = "<group>"; };
+		40648C451C8824DB00B5DD55 /* HCDNokiaPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDNokiaPhone.h; sourceTree = "<group>"; };
+		40648C461C8824DB00B5DD55 /* HCDNokiaPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDNokiaPhone.m; sourceTree = "<group>"; };
+		40648C471C8824DB00B5DD55 /* HCDPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDPhone.h; sourceTree = "<group>"; };
+		40648C481C8824DB00B5DD55 /* HCDPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDPhone.m; sourceTree = "<group>"; };
+		40648C491C8824DB00B5DD55 /* HCDSoftware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDSoftware.h; sourceTree = "<group>"; };
+		40648C4A1C8824DB00B5DD55 /* HCDSonyPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDSonyPhone.h; sourceTree = "<group>"; };
+		40648C4B1C8824DB00B5DD55 /* HCDSonyPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDSonyPhone.m; sourceTree = "<group>"; };
+		40648C4D1C8824DB00B5DD55 /* HCDChickenOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDChickenOrder.h; sourceTree = "<group>"; };
+		40648C4E1C8824DB00B5DD55 /* HCDChickenOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDChickenOrder.m; sourceTree = "<group>"; };
+		40648C4F1C8824DB00B5DD55 /* HCDCustomr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCustomr.h; sourceTree = "<group>"; };
+		40648C501C8824DB00B5DD55 /* HCDCustomr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCustomr.m; sourceTree = "<group>"; };
+		40648C511C8824DB00B5DD55 /* HCDMuttonOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDMuttonOrder.h; sourceTree = "<group>"; };
+		40648C521C8824DB00B5DD55 /* HCDMuttonOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDMuttonOrder.m; sourceTree = "<group>"; };
+		40648C531C8824DB00B5DD55 /* HCDOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDOrder.h; sourceTree = "<group>"; };
+		40648C541C8824DB00B5DD55 /* HCDOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDOrder.m; sourceTree = "<group>"; };
+		40648C551C8824DB00B5DD55 /* HCDWaiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDWaiter.h; sourceTree = "<group>"; };
+		40648C561C8824DB00B5DD55 /* HCDWaiter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDWaiter.m; sourceTree = "<group>"; };
+		40648C571C8824DB00B5DD55 /* HCDWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDWorker.h; sourceTree = "<group>"; };
+		40648C581C8824DB00B5DD55 /* HCDWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDWorker.m; sourceTree = "<group>"; };
+		40648C5A1C8824DB00B5DD55 /* HCDCommonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCommonManager.h; sourceTree = "<group>"; };
+		40648C5B1C8824DB00B5DD55 /* HCDCommonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCommonManager.m; sourceTree = "<group>"; };
+		40648C5C1C8824DB00B5DD55 /* HCDGenaralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDGenaralManager.h; sourceTree = "<group>"; };
+		40648C5D1C8824DB00B5DD55 /* HCDGenaralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDGenaralManager.m; sourceTree = "<group>"; };
+		40648C5E1C8824DB00B5DD55 /* HCDMajorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDMajorManager.h; sourceTree = "<group>"; };
+		40648C5F1C8824DB00B5DD55 /* HCDMajorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDMajorManager.m; sourceTree = "<group>"; };
+		40648C601C8824DB00B5DD55 /* HCDMnager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDMnager.h; sourceTree = "<group>"; };
+		40648C611C8824DB00B5DD55 /* HCDMnager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDMnager.m; sourceTree = "<group>"; };
+		40648C621C8824DB00B5DD55 /* HCDReuquest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDReuquest.h; sourceTree = "<group>"; };
+		40648C631C8824DB00B5DD55 /* HCDReuquest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDReuquest.m; sourceTree = "<group>"; };
+		40648C661C8824DB00B5DD55 /* HCDAbstractColleague.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDAbstractColleague.h; sourceTree = "<group>"; };
+		40648C671C8824DB00B5DD55 /* HCDAbstractColleague.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDAbstractColleague.m; sourceTree = "<group>"; };
+		40648C681C8824DB00B5DD55 /* HCDAbstractMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDAbstractMediator.h; sourceTree = "<group>"; };
+		40648C691C8824DB00B5DD55 /* HCDAbstractMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDAbstractMediator.m; sourceTree = "<group>"; };
+		40648C6A1C8824DB00B5DD55 /* HCDColleagueA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDColleagueA.h; sourceTree = "<group>"; };
+		40648C6B1C8824DB00B5DD55 /* HCDColleagueA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDColleagueA.m; sourceTree = "<group>"; };
+		40648C6C1C8824DB00B5DD55 /* HCDColleagueB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDColleagueB.h; sourceTree = "<group>"; };
+		40648C6D1C8824DB00B5DD55 /* HCDColleagueB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDColleagueB.m; sourceTree = "<group>"; };
+		40648C6E1C8824DB00B5DD55 /* HCDMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDMediator.h; sourceTree = "<group>"; };
+		40648C6F1C8824DB00B5DD55 /* HCDMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDMediator.m; sourceTree = "<group>"; };
+		40648C701C8824DB00B5DD55 /* HCDMediatorProtocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDMediatorProtocal.h; sourceTree = "<group>"; };
+		40648C711C8824DB00B5DD55 /* 中介者模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "中介者模式.png"; sourceTree = "<group>"; };
+		40648C731C8824DB00B5DD55 /* HCDConcreteWebSite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDConcreteWebSite.h; sourceTree = "<group>"; };
+		40648C741C8824DB00B5DD55 /* HCDConcreteWebSite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDConcreteWebSite.m; sourceTree = "<group>"; };
+		40648C751C8824DB00B5DD55 /* HCDUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDUser.h; sourceTree = "<group>"; };
+		40648C761C8824DB00B5DD55 /* HCDUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDUser.m; sourceTree = "<group>"; };
+		40648C771C8824DB00B5DD55 /* HCDWebSite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDWebSite.h; sourceTree = "<group>"; };
+		40648C781C8824DB00B5DD55 /* HCDWebSiteFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDWebSiteFactory.h; sourceTree = "<group>"; };
+		40648C791C8824DB00B5DD55 /* HCDWebSiteFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDWebSiteFactory.m; sourceTree = "<group>"; };
+		40648C7A1C8824DB00B5DD55 /* 享元模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "享元模式.png"; sourceTree = "<group>"; };
+		40648C7C1C8824DB00B5DD55 /* HCDAbstractExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDAbstractExpression.h; sourceTree = "<group>"; };
+		40648C7D1C8824DB00B5DD55 /* HCDAbstractExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDAbstractExpression.m; sourceTree = "<group>"; };
+		40648C7E1C8824DB00B5DD55 /* HCDContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDContext.h; sourceTree = "<group>"; };
+		40648C7F1C8824DB00B5DD55 /* HCDContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDContext.m; sourceTree = "<group>"; };
+		40648C801C8824DB00B5DD55 /* HCDNonterminalExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDNonterminalExpression.h; sourceTree = "<group>"; };
+		40648C811C8824DB00B5DD55 /* HCDNonterminalExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDNonterminalExpression.m; sourceTree = "<group>"; };
+		40648C821C8824DB00B5DD55 /* HCDTerminalExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDTerminalExpression.h; sourceTree = "<group>"; };
+		40648C831C8824DB00B5DD55 /* HCDTerminalExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDTerminalExpression.m; sourceTree = "<group>"; };
+		40648C851C8824DB00B5DD55 /* HCDConcreteElementA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDConcreteElementA.h; sourceTree = "<group>"; };
+		40648C861C8824DB00B5DD55 /* HCDConcreteElementA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDConcreteElementA.m; sourceTree = "<group>"; };
+		40648C871C8824DB00B5DD55 /* HCDConcreteElementB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDConcreteElementB.h; sourceTree = "<group>"; };
+		40648C881C8824DB00B5DD55 /* HCDConcreteElementB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDConcreteElementB.m; sourceTree = "<group>"; };
+		40648C891C8824DB00B5DD55 /* HCDConcreteVisitor1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDConcreteVisitor1.h; sourceTree = "<group>"; };
+		40648C8A1C8824DB00B5DD55 /* HCDConcreteVisitor1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDConcreteVisitor1.m; sourceTree = "<group>"; };
+		40648C8B1C8824DB00B5DD55 /* HCDConcreteVisitor2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDConcreteVisitor2.h; sourceTree = "<group>"; };
+		40648C8C1C8824DB00B5DD55 /* HCDConcreteVisitor2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDConcreteVisitor2.m; sourceTree = "<group>"; };
+		40648C8D1C8824DB00B5DD55 /* HCDElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDElements.h; sourceTree = "<group>"; };
+		40648C8E1C8824DB00B5DD55 /* HCDElements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDElements.m; sourceTree = "<group>"; };
+		40648C8F1C8824DB00B5DD55 /* HCDObjectStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDObjectStructure.h; sourceTree = "<group>"; };
+		40648C901C8824DB00B5DD55 /* HCDObjectStructure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDObjectStructure.m; sourceTree = "<group>"; };
+		40648C911C8824DB00B5DD55 /* HCDVisitors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDVisitors.h; sourceTree = "<group>"; };
+		40648C921C8824DB00B5DD55 /* HCDVisitors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDVisitors.m; sourceTree = "<group>"; };
 		406DB4811C843F1A00F51093 /* HCDForeignCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDForeignCenter.h; sourceTree = "<group>"; };
 		406DB4821C843F1A00F51093 /* HCDForeignCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDForeignCenter.m; sourceTree = "<group>"; };
 		406DB4831C843F1A00F51093 /* HCDForwards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDForwards.h; sourceTree = "<group>"; };
@@ -865,6 +1013,15 @@
 		400EAAAE1C2A9841000AFE82 /* DesignPatternViews */ = {
 			isa = PBXGroup;
 			children = (
+				40648C3A1C8824DB00B5DD55 /* 15迭代器模式 */,
+				40648C3B1C8824DB00B5DD55 /* 16单例模式 */,
+				40648C3E1C8824DB00B5DD55 /* 17桥接模式 */,
+				40648C4C1C8824DB00B5DD55 /* 18命令模式 */,
+				40648C591C8824DB00B5DD55 /* 19职责链模式 */,
+				40648C651C8824DB00B5DD55 /* 20中介者模式 */,
+				40648C721C8824DB00B5DD55 /* 21享元模式 */,
+				40648C7B1C8824DB00B5DD55 /* 22解释者模式 */,
+				40648C841C8824DB00B5DD55 /* 23访问者模式 */,
 				406DB49F1C8445C500F51093 /* 14组合模式 */,
 				406DB4921C84442A00F51093 /* 13备忘录模式 */,
 				406DB4801C843F1A00F51093 /* 12适配器模式 */,
@@ -1112,6 +1269,167 @@
 			path = "11状态模式";
 			sourceTree = "<group>";
 		};
+		40648C3A1C8824DB00B5DD55 /* 15迭代器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				4013A90E1C8FD9870064AB3A /* 迭代器模式.png */,
+				4013A9101C900A2A0064AB3A /* SixteenProtoryViewController.h */,
+				4013A9111C900A2A0064AB3A /* SixteenProtoryViewController.m */,
+			);
+			path = "15迭代器模式";
+			sourceTree = "<group>";
+		};
+		40648C3B1C8824DB00B5DD55 /* 16单例模式 */ = {
+			isa = PBXGroup;
+			children = (
+				40648C3C1C8824DB00B5DD55 /* HCDSingleton.h */,
+				40648C3D1C8824DB00B5DD55 /* HCDSingleton.m */,
+			);
+			path = "16单例模式";
+			sourceTree = "<group>";
+		};
+		40648C3E1C8824DB00B5DD55 /* 17桥接模式 */ = {
+			isa = PBXGroup;
+			children = (
+				4013A9161C900A7E0064AB3A /* 桥接模式.png */,
+				40648C3F1C8824DB00B5DD55 /* HCDAddressListSofeware.h */,
+				40648C401C8824DB00B5DD55 /* HCDAddressListSofeware.m */,
+				40648C411C8824DB00B5DD55 /* HCDGameNokiaSoftware.h */,
+				40648C421C8824DB00B5DD55 /* HCDGameNokiaSoftware.m */,
+				40648C431C8824DB00B5DD55 /* HCDGameSoftware.h */,
+				40648C441C8824DB00B5DD55 /* HCDGameSoftware.m */,
+				40648C451C8824DB00B5DD55 /* HCDNokiaPhone.h */,
+				40648C461C8824DB00B5DD55 /* HCDNokiaPhone.m */,
+				40648C471C8824DB00B5DD55 /* HCDPhone.h */,
+				40648C481C8824DB00B5DD55 /* HCDPhone.m */,
+				40648C491C8824DB00B5DD55 /* HCDSoftware.h */,
+				40648C4A1C8824DB00B5DD55 /* HCDSonyPhone.h */,
+				40648C4B1C8824DB00B5DD55 /* HCDSonyPhone.m */,
+				4013A9131C900A710064AB3A /* SeventeenProtoryViewController.h */,
+				4013A9141C900A710064AB3A /* SeventeenProtoryViewController.m */,
+			);
+			path = "17桥接模式";
+			sourceTree = "<group>";
+		};
+		40648C4C1C8824DB00B5DD55 /* 18命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+				40648C4D1C8824DB00B5DD55 /* HCDChickenOrder.h */,
+				40648C4E1C8824DB00B5DD55 /* HCDChickenOrder.m */,
+				40648C4F1C8824DB00B5DD55 /* HCDCustomr.h */,
+				40648C501C8824DB00B5DD55 /* HCDCustomr.m */,
+				40648C511C8824DB00B5DD55 /* HCDMuttonOrder.h */,
+				40648C521C8824DB00B5DD55 /* HCDMuttonOrder.m */,
+				40648C531C8824DB00B5DD55 /* HCDOrder.h */,
+				40648C541C8824DB00B5DD55 /* HCDOrder.m */,
+				40648C551C8824DB00B5DD55 /* HCDWaiter.h */,
+				40648C561C8824DB00B5DD55 /* HCDWaiter.m */,
+				40648C571C8824DB00B5DD55 /* HCDWorker.h */,
+				40648C581C8824DB00B5DD55 /* HCDWorker.m */,
+				4013A9181C9019BB0064AB3A /* EighteenProtoryVC.h */,
+				4013A9191C9019BB0064AB3A /* EighteenProtoryVC.m */,
+			);
+			path = "18命令模式";
+			sourceTree = "<group>";
+		};
+		40648C591C8824DB00B5DD55 /* 19职责链模式 */ = {
+			isa = PBXGroup;
+			children = (
+				4013A91D1C901C310064AB3A /* 职责链模式.png */,
+				40648C5A1C8824DB00B5DD55 /* HCDCommonManager.h */,
+				40648C5B1C8824DB00B5DD55 /* HCDCommonManager.m */,
+				40648C5C1C8824DB00B5DD55 /* HCDGenaralManager.h */,
+				40648C5D1C8824DB00B5DD55 /* HCDGenaralManager.m */,
+				40648C5E1C8824DB00B5DD55 /* HCDMajorManager.h */,
+				40648C5F1C8824DB00B5DD55 /* HCDMajorManager.m */,
+				40648C601C8824DB00B5DD55 /* HCDMnager.h */,
+				40648C611C8824DB00B5DD55 /* HCDMnager.m */,
+				40648C621C8824DB00B5DD55 /* HCDReuquest.h */,
+				40648C631C8824DB00B5DD55 /* HCDReuquest.m */,
+				4013A91F1C901C670064AB3A /* NignteenProtoryVc.h */,
+				4013A9201C901C670064AB3A /* NignteenProtoryVc.m */,
+			);
+			path = "19职责链模式";
+			sourceTree = "<group>";
+		};
+		40648C651C8824DB00B5DD55 /* 20中介者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				40648C661C8824DB00B5DD55 /* HCDAbstractColleague.h */,
+				40648C671C8824DB00B5DD55 /* HCDAbstractColleague.m */,
+				40648C681C8824DB00B5DD55 /* HCDAbstractMediator.h */,
+				40648C691C8824DB00B5DD55 /* HCDAbstractMediator.m */,
+				40648C6A1C8824DB00B5DD55 /* HCDColleagueA.h */,
+				40648C6B1C8824DB00B5DD55 /* HCDColleagueA.m */,
+				40648C6C1C8824DB00B5DD55 /* HCDColleagueB.h */,
+				40648C6D1C8824DB00B5DD55 /* HCDColleagueB.m */,
+				40648C6E1C8824DB00B5DD55 /* HCDMediator.h */,
+				40648C6F1C8824DB00B5DD55 /* HCDMediator.m */,
+				40648C701C8824DB00B5DD55 /* HCDMediatorProtocal.h */,
+				40648C711C8824DB00B5DD55 /* 中介者模式.png */,
+				4013A9221C90228B0064AB3A /* TwentyProtoryViewController.h */,
+				4013A9231C90228B0064AB3A /* TwentyProtoryViewController.m */,
+			);
+			path = "20中介者模式";
+			sourceTree = "<group>";
+		};
+		40648C721C8824DB00B5DD55 /* 21享元模式 */ = {
+			isa = PBXGroup;
+			children = (
+				40648C731C8824DB00B5DD55 /* HCDConcreteWebSite.h */,
+				40648C741C8824DB00B5DD55 /* HCDConcreteWebSite.m */,
+				40648C751C8824DB00B5DD55 /* HCDUser.h */,
+				40648C761C8824DB00B5DD55 /* HCDUser.m */,
+				40648C771C8824DB00B5DD55 /* HCDWebSite.h */,
+				40648C781C8824DB00B5DD55 /* HCDWebSiteFactory.h */,
+				40648C791C8824DB00B5DD55 /* HCDWebSiteFactory.m */,
+				40648C7A1C8824DB00B5DD55 /* 享元模式.png */,
+				4013A9251C902B670064AB3A /* TwentyOneProtoryViewController.h */,
+				4013A9261C902B670064AB3A /* TwentyOneProtoryViewController.m */,
+			);
+			path = "21享元模式";
+			sourceTree = "<group>";
+		};
+		40648C7B1C8824DB00B5DD55 /* 22解释者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				40648C7C1C8824DB00B5DD55 /* HCDAbstractExpression.h */,
+				40648C7D1C8824DB00B5DD55 /* HCDAbstractExpression.m */,
+				40648C7E1C8824DB00B5DD55 /* HCDContext.h */,
+				40648C7F1C8824DB00B5DD55 /* HCDContext.m */,
+				40648C801C8824DB00B5DD55 /* HCDNonterminalExpression.h */,
+				40648C811C8824DB00B5DD55 /* HCDNonterminalExpression.m */,
+				40648C821C8824DB00B5DD55 /* HCDTerminalExpression.h */,
+				40648C831C8824DB00B5DD55 /* HCDTerminalExpression.m */,
+				4013A9281C902BA90064AB3A /* TwentyTwoProtoryViewController.h */,
+				4013A9291C902BA90064AB3A /* TwentyTwoProtoryViewController.m */,
+			);
+			path = "22解释者模式";
+			sourceTree = "<group>";
+		};
+		40648C841C8824DB00B5DD55 /* 23访问者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				40648C851C8824DB00B5DD55 /* HCDConcreteElementA.h */,
+				40648C861C8824DB00B5DD55 /* HCDConcreteElementA.m */,
+				40648C871C8824DB00B5DD55 /* HCDConcreteElementB.h */,
+				40648C881C8824DB00B5DD55 /* HCDConcreteElementB.m */,
+				40648C891C8824DB00B5DD55 /* HCDConcreteVisitor1.h */,
+				40648C8A1C8824DB00B5DD55 /* HCDConcreteVisitor1.m */,
+				40648C8B1C8824DB00B5DD55 /* HCDConcreteVisitor2.h */,
+				40648C8C1C8824DB00B5DD55 /* HCDConcreteVisitor2.m */,
+				40648C8D1C8824DB00B5DD55 /* HCDElements.h */,
+				40648C8E1C8824DB00B5DD55 /* HCDElements.m */,
+				40648C8F1C8824DB00B5DD55 /* HCDObjectStructure.h */,
+				40648C901C8824DB00B5DD55 /* HCDObjectStructure.m */,
+				40648C911C8824DB00B5DD55 /* HCDVisitors.h */,
+				40648C921C8824DB00B5DD55 /* HCDVisitors.m */,
+				4013A92B1C902C130064AB3A /* TwentyThreeProtoryViewController.h */,
+				4013A92C1C902C130064AB3A /* TwentyThreeProtoryViewController.m */,
+			);
+			path = "23访问者模式";
+			sourceTree = "<group>";
+		};
 		406DB4801C843F1A00F51093 /* 12适配器模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1316,6 +1634,7 @@
 			files = (
 				400EAAC61C2A9C55000AFE82 /* Data.storyboard in Resources */,
 				400EAA851C2A8DAD000AFE82 /* gx60.png in Resources */,
+				40648CAF1C8824DB00B5DD55 /* 享元模式.png in Resources */,
 				400EAA941C2A8DAD000AFE82 /* tab_我的租房_暗.png in Resources */,
 				400EAA9A1C2A8DAD000AFE82 /* tab_租房_亮.png in Resources */,
 				400EAA8F1C2A8DAD000AFE82 /* tab_嘀嘀找房_暗@2x.png in Resources */,
@@ -1336,13 +1655,16 @@
 				400EAA8C1C2A8DAD000AFE82 /* tab_嘀嘀找房_亮.png in Resources */,
 				400EAA8B1C2A8DAD000AFE82 /* BigImage.png in Resources */,
 				400EAA951C2A8DAD000AFE82 /* tab_我的租房_暗@2x.png in Resources */,
+				4013A9171C900A7E0064AB3A /* 桥接模式.png in Resources */,
 				400EAA9F1C2A8DAD000AFE82 /* wu.png in Resources */,
 				400EAA831C2A8DAD000AFE82 /* gx.png in Resources */,
 				400EAAC41C2A9A3C000AFE82 /* Main.storyboard in Resources */,
 				400EAA921C2A8DAD000AFE82 /* tab_我的租房_亮.png in Resources */,
+				40648CAB1C8824DB00B5DD55 /* 中介者模式.png in Resources */,
 				400EAA821C2A8DAD000AFE82 /* AppIcon@2x.png in Resources */,
 				400EAA9D1C2A8DAD000AFE82 /* tab_租房_暗@2x.png in Resources */,
 				400EAA8E1C2A8DAD000AFE82 /* tab_嘀嘀找房_暗.png in Resources */,
+				4013A90F1C8FD9870064AB3A /* 迭代器模式.png in Resources */,
 				400EAA891C2A8DAD000AFE82 /* LaunchImage.png in Resources */,
 				400EAA8A1C2A8DAD000AFE82 /* LaunchImage@2x.png in Resources */,
 				400EAA9B1C2A8DAD000AFE82 /* tab_租房_亮@2x.png in Resources */,
@@ -1353,6 +1675,7 @@
 				E4444506183C9C5B00E0E6BF /* Images.xcassets in Resources */,
 				400EAA8D1C2A8DAD000AFE82 /* tab_嘀嘀找房_亮@2x.png in Resources */,
 				400EAA9E1C2A8DAD000AFE82 /* wk.png in Resources */,
+				4013A91E1C901C310064AB3A /* 职责链模式.png in Resources */,
 				400EAA5D1C2A8DAD000AFE82 /* quotes.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1373,45 +1696,63 @@
 			buildActionMask = 2147483647;
 			files = (
 				400EAAFD1C2AB9A2000AFE82 /* HCDdecoratorGPS.m in Sources */,
+				4013A91A1C9019BB0064AB3A /* EighteenProtoryVC.m in Sources */,
 				400EAA7D1C2A8DAD000AFE82 /* UIWebViewController.m in Sources */,
+				40648CA11C8824DB00B5DD55 /* HCDGenaralManager.m in Sources */,
 				400EAA5F1C2A8DAD000AFE82 /* NSDataViewController.m in Sources */,
+				40648CB11C8824DB00B5DD55 /* HCDContext.m in Sources */,
 				400EAA651C2A8DAD000AFE82 /* GxDrawViewsViewController.m in Sources */,
+				40648CA61C8824DB00B5DD55 /* HCDAbstractColleague.m in Sources */,
 				406DB48B1C843F1A00F51093 /* HCDPlayer.m in Sources */,
+				4013A9151C900A710064AB3A /* SeventeenProtoryViewController.m in Sources */,
 				400EAA6D1C2A8DAD000AFE82 /* UIActionSheetViewController.m in Sources */,
 				400EAA5B1C2A8DAD000AFE82 /* DataFilterViewController.m in Sources */,
+				40648CB51C8824DB00B5DD55 /* HCDConcreteElementB.m in Sources */,
 				401209DD1C7EAEA60086198D /* HCDPersonThinBuilder.m in Sources */,
 				401209EB1C7EAEA60086198D /* HCDForenoonState.m in Sources */,
 				400EAAAD1C2A91F5000AFE82 /* DesignPatternViewController.m in Sources */,
+				4013A9241C90228B0064AB3A /* TwentyProtoryViewController.m in Sources */,
 				400EAA6A1C2A8DAD000AFE82 /* UIView+ScreenShot.m in Sources */,
 				400EAA571C2A8DAD000AFE82 /* GXButtonList.m in Sources */,
 				401209ED1C7EAEA60086198D /* HCDRestState.m in Sources */,
+				4013A9271C902B670064AB3A /* TwentyOneProtoryViewController.m in Sources */,
 				401209891C7C38930086198D /* Gx_Two_Add.m in Sources */,
 				400EAA721C2A8DAD000AFE82 /* UIPageControlViewController.m in Sources */,
 				406DB48C1C843F1A00F51093 /* HCDTranslator.m in Sources */,
 				4012098C1C7C38A10086198D /* Gx_Two_Multi.m in Sources */,
 				401209F91C7EAF3A0086198D /* EightPrototypeVC.m in Sources */,
+				40648CA71C8824DB00B5DD55 /* HCDAbstractMediator.m in Sources */,
 				400EAA591C2A8DAD000AFE82 /* CodeBlockViewController.m in Sources */,
 				401209D71C7EAEA60086198D /* HCDFound.m in Sources */,
 				406DB4A81C8445C500F51093 /* HCDFinanceDepartment.m in Sources */,
+				40648C9F1C8824DB00B5DD55 /* HCDWorker.m in Sources */,
 				401209861C7C38570086198D /* Gx_Two_Create.m in Sources */,
 				40120A081C7EED1A0086198D /* SQLUser.m in Sources */,
 				400EAA711C2A8DAD000AFE82 /* UIDatePickerViewController.m in Sources */,
 				406DB48F1C843FB700F51093 /* PrototypeTwelfthViewController.m in Sources */,
+				40648CA31C8824DB00B5DD55 /* HCDMnager.m in Sources */,
 				406DB4891C843F1A00F51093 /* HCDForeignCenter.m in Sources */,
+				4013A92A1C902BA90064AB3A /* TwentyTwoProtoryViewController.m in Sources */,
 				400EAA751C2A8DAD000AFE82 /* UISwitchViewController.m in Sources */,
+				40648CB41C8824DB00B5DD55 /* HCDConcreteElementA.m in Sources */,
 				401209801C7C04AD0086198D /* Gx_FacateOne.m in Sources */,
+				40648C941C8824DB00B5DD55 /* HCDAddressListSofeware.m in Sources */,
 				401209E41C7EAEA60086198D /* HCDAccessFactory.m in Sources */,
 				406DB4A71C8445C500F51093 /* HCDConcreteCompany.m in Sources */,
 				401209EC1C7EAEA60086198D /* HCDNoonState.m in Sources */,
 				400EAABD1C2A98BE000AFE82 /* CommonTool.m in Sources */,
 				400EAAD91C2AB144000AFE82 /* HCDCashNormal.m in Sources */,
+				40648CBA1C8824DB00B5DD55 /* HCDVisitors.m in Sources */,
 				406DB4A91C8445C500F51093 /* HCDHRDepartment.m in Sources */,
+				40648CA01C8824DB00B5DD55 /* HCDCommonManager.m in Sources */,
 				400EAAC01C2A98BE000AFE82 /* HCDCalculateMinus.m in Sources */,
 				400EAA801C2A8DAD000AFE82 /* GxTableViewController.m in Sources */,
 				400EAA691C2A8DAD000AFE82 /* ScreenCatchViewController.m in Sources */,
 				400EAADA1C2AB144000AFE82 /* HCDCashRobate.m in Sources */,
+				40648C991C8824DB00B5DD55 /* HCDSonyPhone.m in Sources */,
 				401209831C7C04BB0086198D /* Gx_FacateTwo.m in Sources */,
 				400EAB441C2C00B8000AFE82 /* HCDfactoryDivide.m in Sources */,
+				40648CA91C8824DB00B5DD55 /* HCDColleagueB.m in Sources */,
 				400EAA6C1C2A8DAD000AFE82 /* InterfaceViewController.m in Sources */,
 				400EAAFE1C2AB9A2000AFE82 /* HCDnokiaPhone.m in Sources */,
 				401209E71C7EAEA60086198D /* HCDSqlserverFactory.m in Sources */,
@@ -1423,9 +1764,14 @@
 				401209EF1C7EAEA60086198D /* HCDWork.m in Sources */,
 				401209E81C7EAEA60086198D /* HCDSqlserverUser.m in Sources */,
 				400EAA701C2A8DAD000AFE82 /* UIControlViewController.m in Sources */,
+				40648CA41C8824DB00B5DD55 /* HCDReuquest.m in Sources */,
 				400EAA7A1C2A8DAD000AFE82 /* UIProgressViewController.m in Sources */,
 				400EAABF1C2A98BE000AFE82 /* HCDCalculateDivide.m in Sources */,
+				40648CB31C8824DB00B5DD55 /* HCDTerminalExpression.m in Sources */,
+				40648C9C1C8824DB00B5DD55 /* HCDMuttonOrder.m in Sources */,
+				40648C9D1C8824DB00B5DD55 /* HCDOrder.m in Sources */,
 				400EAA681C2A8DAD000AFE82 /* FunctionsViewController.m in Sources */,
+				40648C951C8824DB00B5DD55 /* HCDGameNokiaSoftware.m in Sources */,
 				400EAB241C2BF816000AFE82 /* HCDproxy.m in Sources */,
 				401209E51C7EAEA60086198D /* HCDAccessUser.m in Sources */,
 				406DB4AC1C8445E600F51093 /* PrototypeFourteenViewController.m in Sources */,
@@ -1439,20 +1785,27 @@
 				401209D51C7EAEA60086198D /* HCDtextPaperA.m in Sources */,
 				4012098F1C7C38C50086198D /* Gx_Two_Main.m in Sources */,
 				401209D91C7EAEA60086198D /* HCDstock2.m in Sources */,
+				40648CB81C8824DB00B5DD55 /* HCDElements.m in Sources */,
+				40648CAE1C8824DB00B5DD55 /* HCDWebSiteFactory.m in Sources */,
 				401209F31C7EAF1B0086198D /* SixPrototypeVC.m in Sources */,
 				400EAA771C2A8DAD000AFE82 /* UIImageViewController.m in Sources */,
 				400EAB261C2BF816000AFE82 /* HCDschoolGirl.m in Sources */,
 				400EAA791C2A8DAD000AFE82 /* UIPickerViewController.m in Sources */,
 				400EAA631C2A8DAD000AFE82 /* DrawCircleViewController.m in Sources */,
 				400EAAD81C2AB144000AFE82 /* HCDCashContext.m in Sources */,
+				40648CB91C8824DB00B5DD55 /* HCDObjectStructure.m in Sources */,
 				401209DA1C7EAEA60086198D /* HCDstock3.m in Sources */,
 				400EAA6E1C2A8DAD000AFE82 /* UIAlertViewController.m in Sources */,
 				400EAB461C2C00B8000AFE82 /* HCDfactoryMultiply.m in Sources */,
 				400EAA731C2A8DAD000AFE82 /* UISegmentedControlViewController.m in Sources */,
+				40648CB71C8824DB00B5DD55 /* HCDConcreteVisitor2.m in Sources */,
 				E4444504183C9C5B00E0E6BF /* gxAppDelegate.m in Sources */,
+				40648C9A1C8824DB00B5DD55 /* HCDChickenOrder.m in Sources */,
 				400EAA5A1C2A8DAD000AFE82 /* DataViewController.m in Sources */,
+				40648C9B1C8824DB00B5DD55 /* HCDCustomr.m in Sources */,
 				400EAB491C2C00E6000AFE82 /* FiveFactoryViewController.m in Sources */,
 				400EAA6B1C2A8DAD000AFE82 /* SellViewController.m in Sources */,
+				40648CAA1C8824DB00B5DD55 /* HCDMediator.m in Sources */,
 				400EAB251C2BF816000AFE82 /* HCDpursuit.m in Sources */,
 				400EAAFF1C2AB9A2000AFE82 /* HCDstractCellPhone.m in Sources */,
 				401209DE1C7EAEA60086198D /* HCDNBAObserver.m in Sources */,
@@ -1462,33 +1815,48 @@
 				400EAABE1C2A98BE000AFE82 /* HCDCalculateAdd.m in Sources */,
 				40120A021C7EAFCC0086198D /* ElevenPrototypeVC.m in Sources */,
 				406DB49A1C84442A00F51093 /* HCDGameState.m in Sources */,
+				40648CAD1C8824DB00B5DD55 /* HCDUser.m in Sources */,
 				400EAAE01C2AB1D6000AFE82 /* TwoStrategyViewController.m in Sources */,
 				40120A071C7EED1A0086198D /* SQLDepartment.m in Sources */,
 				401209E61C7EAEA60086198D /* HCDSqlserverDepartment.m in Sources */,
+				40648CB61C8824DB00B5DD55 /* HCDConcreteVisitor1.m in Sources */,
+				4013A9121C900A2A0064AB3A /* SixteenProtoryViewController.m in Sources */,
 				400EAB291C2BF839000AFE82 /* FourProxyViewController.m in Sources */,
 				400EAA5E1C2A8DAD000AFE82 /* MyCollectionCell.m in Sources */,
+				40648C981C8824DB00B5DD55 /* HCDPhone.m in Sources */,
 				401209DC1C7EAEA60086198D /* HCDPersonFatBuilder.m in Sources */,
 				400EAA7F1C2A8DAD000AFE82 /* OtherViewController.m in Sources */,
 				401209E01C7EAEA60086198D /* HCDStockObserver.m in Sources */,
+				40648C961C8824DB00B5DD55 /* HCDGameSoftware.m in Sources */,
 				400EAA741C2A8DAD000AFE82 /* UISliderViewController.m in Sources */,
 				400EAAD71C2AB144000AFE82 /* HCDCaseReturn.m in Sources */,
 				400EAA671C2A8DAD000AFE82 /* UIView+ImageShot.m in Sources */,
 				406DB4991C84442A00F51093 /* HCDGameRoll.m in Sources */,
 				406DB49E1C8444A200F51093 /* PrototypeThirteenViewController.m in Sources */,
 				400EAA761C2A8DAD000AFE82 /* UITextFieldViewController.m in Sources */,
+				40648C971C8824DB00B5DD55 /* HCDNokiaPhone.m in Sources */,
+				40648C9E1C8824DB00B5DD55 /* HCDWaiter.m in Sources */,
+				40648CA21C8824DB00B5DD55 /* HCDMajorManager.m in Sources */,
+				40648CA81C8824DB00B5DD55 /* HCDColleagueA.m in Sources */,
 				401209FC1C7EAF530086198D /* NightPtototypeVC.m in Sources */,
 				400EAA6F1C2A8DAD000AFE82 /* UIButtonViewController.m in Sources */,
 				401209DF1C7EAEA60086198D /* HCDSecreteSubject.m in Sources */,
 				400EAA7B1C2A8DAD000AFE82 /* UIScrollViewController.m in Sources */,
 				401209E31C7EAEA60086198D /* HCDAccessDepartment.m in Sources */,
+				40648CAC1C8824DB00B5DD55 /* HCDConcreteWebSite.m in Sources */,
 				400EAA601C2A8DAD000AFE82 /* NSPredicateViewController.m in Sources */,
 				400EAB071C2AB9ED000AFE82 /* ThreeDecoratorViewController.m in Sources */,
 				401209EA1C7EAEA60086198D /* HCDEventState.m in Sources */,
 				4012097D1C7C03150086198D /* Gx_OneCreate.m in Sources */,
 				400EAA611C2A8DAD000AFE82 /* AnimaTryViewController.m in Sources */,
 				401209D61C7EAEA60086198D /* HCDtextPaperB.m in Sources */,
+				40648C931C8824DB00B5DD55 /* HCDSingleton.m in Sources */,
+				40648CB01C8824DB00B5DD55 /* HCDAbstractExpression.m in Sources */,
+				4013A9211C901C670064AB3A /* NignteenProtoryVc.m in Sources */,
 				401209D81C7EAEA60086198D /* HCDstock1.m in Sources */,
 				400EAAC11C2A98BE000AFE82 /* HCDCalcuteFactory.m in Sources */,
+				4013A92D1C902C130064AB3A /* TwentyThreeProtoryViewController.m in Sources */,
+				40648CB21C8824DB00B5DD55 /* HCDNonterminalExpression.m in Sources */,
 				400EAB431C2C00B8000AFE82 /* HCDfactoryAdd.m in Sources */,
 				401209DB1C7EAEA60086198D /* HCDPersonBuilderDirector.m in Sources */,
 				400EAB421C2C00B8000AFE82 /* HCDfactory.m in Sources */,

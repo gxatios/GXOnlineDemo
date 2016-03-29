@@ -52,6 +52,34 @@
     NSLog(@"%@",filteredArray);
 }
 
+//a 本地路径拼接
++ (NSString *)filePath:(NSString*)filename
+{
+    NSArray *paths = NSSearchPathForDirectoriesInDomains( NSDocumentDirectory,NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+    NSString *documentLibraryFolderPath = [documentsDirectory stringByAppendingPathComponent:filename];
+    return documentLibraryFolderPath;
+}
+
++ (BOOL)fileExitWith:(NSString *)filename
+{
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    if ([fileManager fileExistsAtPath:[self filePath:filename]]) {
+        return YES;
+    }else{
+        return NO;
+    }
+}
++ (BOOL)arrayExistWith:(NSString *)fileName
+{
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    return [fileManager fileExistsAtPath:fileName];
+}
+
+
+
+
+
 - (NSString *)pathForHome
 {
     //获取根目录

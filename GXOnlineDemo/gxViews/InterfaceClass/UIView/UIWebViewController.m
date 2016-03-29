@@ -36,6 +36,7 @@
     _urlTextField = [[UITextField alloc] initWithFrame:CGRectMake(0, 65, 260, 40)];
     _urlTextField.placeholder = @"输入网址";
     _urlTextField.delegate = self;
+    _urlTextField.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:_urlTextField];
     _goBtn = [UIButton buttonWithType:UIButtonTypeSystem];
     _goBtn.frame = CGRectMake(270, 65, 40, 40);

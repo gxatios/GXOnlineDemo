@@ -102,6 +102,7 @@
         case 0:
         {
             UIControlViewController *vc = [[UIControlViewController alloc]init];
+            vc.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
@@ -109,30 +110,35 @@
             case 1:
         {
             UILabelViewController *vc = [[UILabelViewController alloc]init];
+            vc.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         case 2:
         {
             UIWebViewController *vc = [[UIWebViewController alloc]init];
+            vc.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         case 3:
         {
             UISearchBarViewController *vc = [[UISearchBarViewController alloc]init];
+            vc.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         case 4:
         {
             UIImageViewController *vc = [[UIImageViewController alloc]init];
+            vc.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         case 5:
         {
             UIActionSheetViewController *vc = [[UIActionSheetViewController alloc]init];
+            vc.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
@@ -140,24 +146,28 @@
         case 6:
         {
             UIAlertViewController *vc = [[UIAlertViewController alloc]init];
+            vc.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         case 7:
         {
             UIScrollViewController *vc = [[UIScrollViewController alloc]init];
+            vc.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         case 8:
         {
             UIPickerViewController *vc = [[UIPickerViewController alloc]init];
+            vc.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         case 9:
         {
             UIProgressViewController *vc = [[UIProgressViewController alloc]init];
+            vc.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
